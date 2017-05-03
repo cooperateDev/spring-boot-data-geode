@@ -1,0 +1,2012 @@
+SPRING BOOT FOR APACHE GEODE CHANGELOG
+---------------------------------------------------------
+https://github.com/spring-projects/spring-boot-data-geode
+=========================================================
+
+
+Changes in version 2.0.0-M3 (2022-05-19)
+----------------------------------------
+Aligns SBDG with Spring Boot 3.0.0-M3.
+
+* Built with Java 17, JDK 17+35-LTS-2724 (2021-09-14 LTS).
+* Upgrades to Spring Framework 6.0.0-M4
+* Upgrades to Spring Boot 3.0.0-M3.
+* Upgrades to Spring Cloud Bindings 1.9.0.
+* Upgrades to Spring Data BOM 2022.0.0-M4 (Raj-GA).
+* Upgrades to Spring Data for Apache Geode 3.0.0-M4.
+* Upgrades to Spring Session BOM 2022.0.0-M2.
+* Upgrades to Spring Session for Apache Geode 3.0.0-M3.
+* Upgrades to Spring Test for Apache Geode 1.0.0-M4.
+
+
+Changes in version 1.7.0 (2022-05-19)
+-------------------------------------
+Aligns SBDG with Spring Boot 2.7.0
+
+* Built with Java 8, JDK 1.8.0_331.
+* Upgrades to Spring Framework 5.3.20.
+* Upgrades to Spring Boot 2.7.0.
+* Upgrades to Spring Data BOM 2021.2.0 (Raj-GA).
+* Upgrades to Spring Data for Apache Geode 2.7.0.
+* Upgrades to Spring Session BOM 2021.2.0.
+* Upgrades to Spring Session for Apache Geode 2.7.0.
+* Upgrades to Spring Test for Apache Geode 0.3.0-RAJ.
+
+
+Changes in version 1.6.8 (2022-05-19)
+-------------------------------------
+Aligns SBDG with Spring Boot 2.6.8.
+
+* Built with Java 8, JDK 1.8.0_331.
+* Upgrades to Spring Framework 5.3.20.
+* Upgrades to Spring Boot 2.6.8.
+
+
+Changes in version 1.5.14 (2022-05-19)
+--------------------------------------
+Aligns SBDG with Spring Boot 2.5.15.
+
+* Built with Java 8, JDK 1.8.0_331.
+* Upgrades to Spring Framework 5.3.20.
+* Upgrades to Spring Boot 2.5.14.
+
+
+Changes in version 1.7.0-RC1 (2022-04-21)
+-----------------------------------------
+Aligns SBDG with Spring Boot 2.7.0-RC1.
+
+* Built on Java 8, JDK 1.8.0_331.
+* Upgrades to Spring Framework 5.3.19.
+* Upgrades to Spring Boot 2.7.0-RC1.
+* Upgrades to Spring Data BOM 2021.2.0-RC1 (Raj-RC1).
+* Upgrades to Spring Data for Apache Geode 2.7.0-RC1.
+* Upgrades to Spring Session BOM 2021.2.0-RC1.
+* Upgrades to Spring Session for Apache Geode 2.7.0-RC1.
+* Upgrades to Spring Test for Apache Geode 0.3.0-RAJ-RC1.
+
+
+Changes in version 1.6.7 (2022-04-21)
+-------------------------------------
+Aligns SBDG with Spring Boot 2.6.7.
+
+* Built on Java 8, JDK 1.8.0_331.
+* Upgrades to Spring Framework 5.3.19.
+* Upgrades to Spring Boot 2.6.7.
+* Upgrades to Spring Data BOM 2021.1.4 (Q-SR4).
+* Upgrades to Spring Data for Apache Geode 2.6.4.
+* Upgrades to Spring Session BOM 2021.1.3.
+
+
+Changes in version 1.5.13 (2022-04-21)
+--------------------------------------
+Aligns SBDG with Spring Boot 2.5.13.
+
+* Built on Java 8, JDK 1.8.0_331.
+* Upgrades to Spring Framework 5.3.19.
+* Upgrades to Spring Boot 2.5.13.
+* Upgrades to Spring Data BOM 2021.0.11 (Pascal-SR11).
+* Upgrades to Spring Data for Apache Geode 2.5.11.
+* Upgrades to Spring Session BOM 2021.0.6
+
+
+Changes in version 1.6.6 (2022-03-31)
+--------------------------------------
+Aligns SBDG with Spring Boot 2.6.6.
+
+* Emergency release in response to: https://spring.io/blog/2022/03/31/spring-framework-rce-early-announcement,
+and CVE: https://tanzu.vmware.com/security/cve-2022-22965.
+* Upgrades to Spring Framework 5.3.18.
+* Upgrades to Spring Boot 2.6.6.
+
+
+Changes in version 1.5.12 (2022-03-31)
+--------------------------------------
+Aligns SBDG with Spring Boot 2.5.12.
+
+* Emergency release in response to: https://spring.io/blog/2022/03/31/spring-framework-rce-early-announcement,
+and CVE: https://tanzu.vmware.com/security/cve-2022-22965.
+* Upgrades to Spring Framework 5.3.18.
+* Upgrades to Spring Boot 2.5.12.
+
+
+Changes in version 2.0.0-M2 (2022-03-24)
+----------------------------------------
+Aligns SBDG with Spring Boot 3.0.0-M2.
+
+* Adds documentation on the Java version.
+* Adds documentation on dependency version overriding complimenting Spring Boot's documentation.
+* Fixes bug involving the spring.session.timeout Spring Boot property.
+Resolves GitHub Issue #113: https://github.com/spring-projects/spring-boot-data-geode/issues/113.
+* Upgrades to Apache Geode 1.14.4.
+* Upgrades to Awaitility 4.2.0.
+* Upgrades to Gradle 7.4.1.
+* Upgrades to Micrometer 1.9.0-M4.
+* Upgrades to Spring Framework 6.0.0-M3.
+* Upgrades to Spring Boot 3.0.0-M2.
+* Upgrades to Spring Data BOM 2022.0.0-M3 (Turing-M3).
+* Upgrades to Spring Data for Apache Geode 3.0.0-M3.
+* Upgrades to Spring Session for Apache Geode 3.0.0-M2.
+* Upgrades to Spring Test for Apache Geode 1.0.0-M3.
+* Upgrades to VMware Tanzu (Pivotal) GemFire 9.10.15.
+* Upgrades to VMware Tanzu GemFire for VMs (Pivotal Cloud Cache) 1.14.4.
+
+
+Changes in version 1.7.0-M3 (2022-03-24)
+----------------------------------------
+Aligns SBDG with Spring Boot 2.7.0-M3.
+
+* Adds documentation on the Java version.
+* Adds documentation on dependency version overriding complimenting Spring Boot's documentation.
+* Fixes bug involving the spring.session.timeout Spring Boot property.
+Resolves GitHub Issue #113: https://github.com/spring-projects/spring-boot-data-geode/issues/113.
+* Upgrades to Apache Geode 1.14.4.
+* Upgrades to Awaitility 4.2.0.
+* Upgrades to VMware Tanzu (Pivotal) GemFire 9.10.15.
+* Upgrades to VMware Tanzu GemFire for VMs (Pivotal Cloud Cache) 1.14.4.
+* Upgrades to Spring Framework 5.3.17.
+* Upgrades to Spring Boot 2.7.0-M3.
+* Upgrades to Spring Data BOM 2021.2.0-M4 (RAJ-M4).
+* Upgrades to Spring Data for Apache Geode 2.7.0-M4.
+* Upgrades to Spring Session for Apache Geode 2.7.0-M2
+* Upgrades to Spring Test for Apache Geode 0.3.0-RAJ-M3.
+
+
+Changes in version 1.6.5 (2022-03-24)
+-------------------------------------
+Aligns SBDG with Spring Boot 2.6.5.
+
+* Adds documentation on the Java version.
+* Adds documentation on dependency version overriding complimenting Spring Boot's documentation.
+* Fixes bug involving the spring.session.timeout Spring Boot property.
+Resolves GitHub Issue #113: https://github.com/spring-projects/spring-boot-data-geode/issues/113.
+* Upgrades to Apache Geode 1.14.4.
+* Upgrades to Awaitility 4.2.0.
+* Upgrades to Spring Framework 5.3.17.
+* Upgrades to Spring Boot 2.6.5.
+* Upgrades to Spring Data BOM 2021.1.3 (Q-SR3).
+* Upgrades to Spring Data for Apache Geode 2.6.3
+* Upgrades to Spring Session for Apache Geode 2.6.1.
+* Upgrades to Spring Test for Apache Geode 0.2.2-Q.
+* Upgrades to VMware Tanzu (Pivotal) GemFire 9.10.15.
+* Upgrades to VMware Tanzu GemFire for VMs (Pivotal Cloud Cache) 1.14.4.
+
+
+Changes in version 1.5.11 (2022-03-24)
+-------------------------------------
+Aligns SBDG with Spring Boot 2.5.11.
+
+* Adds documentation on the Java version.
+* Adds documentation on dependency version overriding complimenting Spring Boots documentation.
+* Fixes bug involving the spring.session.timeout Spring Boot property.
+Resolves GitHub Issue #113: https://github.com/spring-projects/spring-boot-data-geode/issues/113.
+* Upgrades to Apache Geode 1.13.8.
+* Upgrades to Awaitility 4.2.0.
+* Upgrades to Spring Framework 5.3.17.
+* Upgrades to Spring Boot 2.5.11.
+* Upgrades to Spring Data BOM 2021.0.10 (Pascal-SR10).
+* Upgrades to Spring Data for Apache Geode 2.5.10.
+* Upgrades to Spring Session for Apache Geode 2.5.6.
+* Upgrades to Spring Test for Apache Geode 0.1.2-PASCAL.
+* Upgrades to VMware Tanzu (Pivotal) GemFire 9.10.15.
+* Upgrades to VMware Tanzu GemFire for VMs (Pivotal Cloud Cache) 1.13.7.
+
+
+Changes in version 2.0.0-M1 (2022-02-28)
+----------------------------------------
+Aligns SBDG with Spring Boot 3.0.0-M1.
+
+* Rebases SBDG on Java 17.
+* Rebases SBDG on Jakarta EE 9.
+* Rebases SBDG on Spring Framework 6.0.0-M2.
+* Rebases SBDG on Spring Boot 3.0.0-M1.
+* Rebases SBDG on Spring Data BOM 2022.0.0-M1
+* Rebases SBDG on Spring Data for Apache Geode 3.0.0-M1.
+* Rebases SBDG on Spring Session BOM 2022.0.0-M1.
+* Rebases SBDG on Spring Session for Apache Geode 3.0.0-M1.
+* Rebases SBDG on Spring Test for Apache Geode 1.0.0-M2.
+* Imports Spring Build Convention Gradle Plugins locally.
+* Downgrades to Eclipse Jetty 9.4.39.v20210325.
+* Removes the use of Apache Geode's WAR file containing the Management REST API.
+* Restructures SBDG to mirror Spring Boot's project structure; Resolves gh-60.
+* Upgrades to Apache Geode 1.14.3.
+* Upgrades to Gradle 7.4.
+* Upgrades to FreeFair Lombok Gradle Plugin 6.3.0.
+* Upgrades to VMware Tanzu GemFire for VMs (Pivotal Cloud Cache) 1.14.3.
+
+
+
+Changes in version 1.7.0-M2 (2022-02-28)
+----------------------------------------
+Aligns SBDG with Spring Boot 2.7.0-M2.
+
+* Upgrades to Apache Geode 1.14.3.
+* Upgrades to VMware Tanzu GemFire for VMs (Pivotal Cloud Cache) 1.14.3.
+* Upgrades to Spring Framework 5.3.16.
+* Upgrades to Spring Boot 2.7.0-M2.
+* Upgrades to Spring Data BOM 2021.2.0-M3.
+* Upgrades to Spring Data for Apache Geode 2.7.0-M3.
+
+
+Changes in version 1.6.4 (2022-02-28)
+-------------------------------------
+Aligns SBDG with Spring Boot 2.6.4.
+
+* Upgrades to Apache Geode 1.14.3.
+* Upgrades to VMware Tanzu GemFire for VMs (Pivotal Cloud Cache) 1.14.3.
+* Upgrades to Spring Framework 5.3.16.
+* Upgrades to Spring Boot 2.6.4.
+* Upgrades to Spring Data BOM 2021.1.2.
+* Upgrades to Spring Data for Apache Geode 2.6.2
+* Upgrades to Spring Session BOM 2021.1.2.
+
+
+Changes in version 1.5.10 (2022-02-28)
+--------------------------------------
+Aligns SBDG with Spring Boot 2.5.10.
+
+* Upgrades to VMware Tanzu GemFire for VMs (Pivotal Cloud Cache) 1.13.6.
+* Upgrades to Spring Framework 5.3.16.
+* Upgrades to Spring Boot 2.5.10.
+* Upgrades to Spring Data BOM 2021.0.9.
+* Upgrades to Spring Data for Apache Geode 2.5.9.
+* Upgrades to Spring Session BOM 2021.0.5.
+
+
+Changes in version 1.7.0-M1 (2022-01-21)
+----------------------------------------
+Aligns SBDG with Spring Boot 2.7.0-M1.
+
+* Upgrades to VMware Tanzu (Pivotal) GemFire 9.10.14.
+* Upgrades to Spring Framework 5.3.15.
+* Upgrades to Spring Boot 2.7.0-M1.
+* Upgrades to Spring Data BOM 2021.2.0-M2 (Raj-M2).
+* Upgrades to Spring Data for Apache Geode 2.7.0-M2.
+* Upgrades to Spring Session BOM 2021.2.0-M1.
+* Upgrades to Spring Session for Apache Geode 2.7.0-M1.
+* Upgrades to Spring Test for Apache Geode 0.3.0-RAJ-M2.
+* Upgrades to Testcontainers 1.16.3.
+
+
+Changes in version 1.6.3 (2022-01-21)
+-------------------------------------
+Aligns SBDG with Spring Boot 2.6.3.
+
+* Upgrades to VMware Tanzu (Pivotal) GemFire 9.10.14.
+* Upgrades to Spring Framework 5.3.15.
+* Upgrades to Spring Boot 2.6.3.
+* Upgrades to Spring Data BOM 2021.1.1.
+* Upgrades to Spring Data for Apache Geode 2.6.1.
+* Upgrades to Spring Test for Apache Geode 0.2.1-Q.
+* Upgrades to Testcontainers 1.16.3.
+
+
+Changes in version 1.5.9 (2022-01-20)
+-------------------------------------
+Aligns SBDG with Spring Boot 2.5.9.
+
+* Upgrades to Apache Geode 1.13.7.
+* Upgrades to VMware Tanzu (Pivotal) GemFire 9.10.14.
+* Upgrades to Spring Framework 5.3.15.
+* Upgrades to Spring Boot 2.5.9.
+* Upgrades to Spring Data BOM 2021.0.8.
+* Upgrades to Spring Data for Apache Geode 2.5.8.
+* Upgrades to Spring Test for Apache Geode 0.1.1-PASCAL.
+* Upgrades to Testcontainers 1.16.3.
+
+
+Changes in version 1.6.2 (2022-01-10)
+-------------------------------------
+Aligns SBDG with Spring Boot 2.6.2.
+
+* Upgrades to Apache Geode 1.14.2
+* Upgrades to VMware Tanzu (Pivotal) GemFire 9.10.13.
+* Upgrades to VMware Tanzu GemFire for VMs (Pivotal Cloud Cache) 1.14.2.
+* Upgrades to Spring Framework 5.3.14.
+* Upgrades to Spring Boot 2.6.2.
+* Upgrades to Spring Cloud Bindings 1.8.1.
+* Upgrades to Spring Session BOM 2021.1.1.
+* Upgrades to Gradle 6.9.2.
+
+
+Changes in version 1.5.8 (2022-01-10)
+-------------------------------------
+Aligns SBDG with Spring Boot 2.5.8.
+
+* Upgrades to Apache Geode 1.13.6.
+* Upgrades to VMware Tanzu (Pivotal) GemFire 9.10.13.
+* Upgrades to VMware Tanzu GemFire for VMs (Pivotal Cloud Cache) 1.13.5.
+* Upgrades to Spring Framework 5.3.14.
+* Upgrades to Spring Boot 2.5.8.
+* Upgrades to Spring Session BOM 2021.0.4.
+* Upgrades to Gradle 6.9.2.
+
+
+Changes in version 1.6.1 (2021-12-02)
+-------------------------------------
+Aligns SBDG with Spring Boot 2.6.1.
+
+* Add chapter in SBDG reference documentation to explain the primary dependency versions and their importance.
+* Upgrades to Spring Boot 2.6.1.
+
+
+Changes in version 1.6.0 (2021-11-19)
+-------------------------------------
+Aligns SBDG with Spring Boot 2.6.0.
+
+* Upgrades to Awaitility 4.1.1.
+* Upgrades to Spring Framework 5.3.13.
+* Upgrades to Spring Boot 2.6.0.
+* Upgrades to Spring Data 2021.1.0 (Q-GA).
+* Upgrades to Spring Data for Apache Geode 2.6.0
+* Upgrades to Spring Session BOM 2021.1.0.
+* Upgrades to Spring Session for Apache Geode 2.6.0.
+* Upgrades to Spring Test for Apache Geode 0.0.28.
+* Upgrades to Testcontainers 1.16.2.
+
+
+Changes in version 1.5.7 (2021-11-18)
+-------------------------------------
+Aligns SBDG with Spring Boot 2.5.7.
+
+* Upgrades to Awaitility 4.1.1.
+* Upgrades to Spring Framework 5.3.13.
+* Upgrades to Spring Boot 2.5.7.
+* Upgrades to Spring Data 2021.0.7 (Pascal-SR7).
+* Upgrades to Spring Data for Apache Geode 2.5.7.
+* Upgrades to Testcontainers 1.16.2.
+
+
+Changes in version 1.4.13 (2021-11-18)
+--------------------------------------
+Aligns SBDG with Spring Boot 2.4.13.
+
+* Upgrades to Awaitility 4.1.1.
+* Upgrades to Byte Buddy 1.12.1.
+* Upgrades to Spring Framework 5.3.13.
+* Upgrades to Spring Boot 2.4.13.
+* Upgrades to Spring Data 2020.0.15 (Ockham-SR15).
+* Upgrades to Spring Data for Apache Geode 2.4.15.
+* Upgrades to Testcontainers 1.16.2.
+* Upgrades to VMware Tanzu (Pivotal) GemFire 9.10.10.
+
+
+Changes in version 1.6.0-RC1 (2021-10-21)
+-----------------------------------------
+Aligns SBDG with Spring Boot 2.6.0-RC1
+
+* Upgrades to VMware Tanzu (Pivotal) GemFire 9.10.10.
+* Upgrades to Spring Framework 5.3.12.
+* Upgrades to Spring Boot 2.6.0-RC1
+* Upgrades to Spring Data 2021.1.0-RC1 (Q-RC1).
+* Upgrades to Spring Data for Apache Geode 2.6.0-RC1.
+* Upgrades to Spring Session BOM 2021.1.0-RC1.
+* Upgrades to Spring Session for Apache Geode 2.6.0-RC1.
+
+
+Changes in version 1.5.6 (2021-10-21)
+-------------------------------------
+Aligns SBDG with Spring Boot 2.5.6.
+
+* Upgrades to VMware Tanzu (Pivotal) GemFire 9.10.10.
+* Upgrades to Spring Framework 5.3.12.
+* Upgrades to Spring Boot 2.5.6.
+* Upgrades to Spring Data 2021.0.6 (Pascal-SR6).
+* Upgrades to Spring Data for Apache Geode 2.5.6.
+* Upgrades to Spring Session BOM 2021.0.3.
+* Upgrades to Spring Session for Apache Geode 2.5.5.
+
+
+Changes in version 1.4.12 (2021-10-21)
+--------------------------------------
+Aligns SBDG with Spring Boot 2.4.12.
+
+* Upgrades to Byte Buddy 1.11.21.
+* Upgrades to Mockito 4.0.0.
+* Upgrades to Spring Framework 5.3.12.
+* Upgrades to Spring Boot 2.4.12.
+* Upgrades to Spring Data 2020.0.14 (Ockham-SR14).
+* Upgrades to Spring Data for Apache Geode 2.4.14.
+* Upgrades to Spring Session BOM 2020.0.7.
+* Upgrades to Spring Session for Apache Geode 2.4.8.
+
+
+Changes in version 1.6.0-M3 (2021-09-28)
+----------------------------------------
+Aligns SBDG with Spring Boot 2.6.0-M3.
+
+* Includes additional test coverage around SDG GemfireTemplate auto-configuration per Region provided by SBDG.
+* Upgrades to Apache Geode 1.14.0.
+* Upgrades to VMware Tanzu GemFire for VMs (Pivotal Cloud Cache) 1.14.0.
+* Upgrades to Gradle 6.9.1.
+* Upgrades to Spring Framework 5.3.10.
+* Upgrades to Spring Boot 2.6.0-M3.
+* Upgrades to Spring Cloud Bindings 1.8.0.
+* Upgrades to Spring Data 2021.1.0-M3 (Q-M3).
+* Upgrades to Spring Data for Apache Geode 2.6.0-M3.
+* Upgrades to Spring Test for Apache Geode 0.0.26.
+
+
+Changes in version 1.5.5 (2021-09-28)
+-------------------------------------
+Aligns SBDG with Spring Boot 2.5.5.
+
+* Upgrades to Gradle 6.9.1.
+* Upgrades to Spring Framework 5.3.10.
+* Upgrades to Spring Boot 2.5.5
+* Upgrades to Spring Data 2021.0.5 (Pascal-SR5).
+* Upgrades to Spring Data for Apache Geode 2.5.5.
+* Upgrades to Spring Test for Apache Geode 0.0.26.
+
+
+Changes in version 1.4.11 (2021-09-28)
+--------------------------------------
+Aligns SBDG with Spring Boot 2.4.11.
+
+* Upgrades to Byte Buddy 1.11.18.
+* Upgrades to Gradle 6.9.1.
+* Upgrades to Mockito 3.12.4.
+* Upgrades to Spring Framework 5.3.10.
+* Upgrades to Spring Boot 2.4.11.
+* Upgrades to Spring Data 2020.0.13 (Ockham-SR13).
+* Upgrades to Spring Data for Apache Geode 2.4.13.
+
+
+Changes in version 1.6.0-M2 (2021-08-19)
+----------------------------------------
+Aligns SBDG with Spring Boot 2.6.0-M2.
+
+* Improves test coverage of Region GemfireTemplate auto-configuration further ensuring the correct behavior.
+* Replaces all Spring @Configuration annotations with Spring Boot @SpringBootConfiguration annotations
+in SBDG's auto-configuration classes.
+* Upgrades to Apache Geode 1.13.4.
+* Upgrades to VMware Tanzu (Pivotal) GemFire 9.10.9.
+* Upgrades to VMware Tanzu GemFire for VMs (Pivotal Cloud Cache (PCC)) 1.13.3.
+* Upgrades to Spring Boot 2.6.0-M2.
+* Upgrades to Spring Data 2021.1.0-M2 (Q-M2).
+* Upgrades to Spring Data for Apache Geode 2.6.0-M2
+* Upgrades to Spring Session BOM 2021.1.0-M1.
+* Upgrades to Spring Session for Apache Geode 2.6.0-M1.
+* Upgrades to Testcontainers 1.16.0.
+
+
+Changes in version 1.5.4 (2021-08-19)
+-------------------------------------
+Aligns SBDG with Spring Boot 2.5.4.
+
+* Upgrades to Apache Geode 1.13.4.
+* Upgrades to VMware Tanzu (Pivotal) GemFire 9.10.9.
+* Upgrades to VMware Tanzu GemFire for VMs (Pivotal Cloud Cache (PCC)) 1.13.3.
+* Upgrades to Spring Boot 2.5.4.
+* Upgrades to Spring Data 2021.0.4 (Pascal-SR4).
+* Upgrades to Spring Data for Apache Geode 2.5.4.
+* Upgrades to Spring Session BOM 2021.0.2.
+* Upgrades to Spring Session for Apache Geode 2.5.4.
+* Upgrades to Testcontainers 1.16.0.
+
+
+Changes in version 1.4.10 (2021-08-19)
+--------------------------------------
+Aligns SBDG with Spring Boot 2.4.10.
+
+* Upgrades to Apache Geode 1.13.4.
+* Upgrades to VMware Tanzu (Pivotal) GemFire 9.10.9.
+* Upgrades to VMware Tanzu GemFire for VMs (Pivotal Cloud Cache (PCC)) 1.13.3.
+* Upgrades to Byte Buddy 1.11.13.
+* Upgrades to Spring Boot 2.4.10.
+* Upgrades to Spring Data 2020.0.12 (Ockham-SR12).
+* Upgrades to Spring Data for Apache Geode 2.4.12.
+* Upgrades to Spring Session BOM 2020.0.6.
+* Upgrades to Spring Session for Apache Geode 2.4.7.
+* Upgrades to Testcontainers 1.16.0.
+
+
+Changes in version 1.6.0-M1 (2021-07-22)
+----------------------------------------
+Aligns SBDG with Spring Boot 2.6.0-M1
+
+* Edited the SBDG Reference Documentation.
+Resolves https://github.com/spring-projects/spring-boot-data-geode/pull/109.
+* Upgrades to VMware Tanzu (Pivotal) GemFire 9.10.8.
+* Upgrades to VMware Tanzu GemFire for VMs (Pivotal Cloud Cache (PCC)) 1.13.2.
+* Upgrades to Spring Framework 5.3.9.
+* Upgrades to Spring Boot 2.6.0-M1.
+* Upgrades to Spring Data 2021.1.0-M1 (Q-M1).
+* Upgrades to Spring Data for Apache Geode 2.6.0-M1
+* Upgrades to Spring Build Conventions Gradle Plugin 0.0.38.
+
+
+Changes in version 1.5.3 (2021-07-22)
+-------------------------------------
+Aligns SBDG with Spring Boot 2.5.3.
+
+* Upgrades to Apache Geode 1.13.3.
+* Upgrades to VMware Tanzu (Pivotal) GemFire 9.10.8.
+* Upgrades to VMware Tanzu GemFire for VMs (Pivotal Cloud Cache (PCC)) 1.13.2.
+* Upgrades to Spring Framework 5.3.9.
+* Upgrades to Spring Boot 2.5.3.
+* Upgrades to Spring Data 2021.0.3 (Pascal-SR3).
+* Upgrades to Spring Data for Apache Geode 2.5.3.
+* Upgrades to Spring Build Conventions Gradle Plugin 0.0.38.
+
+
+Changes in version 1.4.9 (2021-07-22)
+-------------------------------------
+Aligns SBDG with Spring Boot 2.4.9.
+
+* Upgrades to Apache Geode 1.13.3.
+* Upgrades to VMware Tanzu (Pivotal) GemFire 9.10.8.
+* Upgrades to VMware Tanzu GemFire for VMs (Pivotal Cloud Cache (PCC)) 1.13.2.
+* Upgrades to Byte Buddy 1.11.8.
+* Upgrades to Spring Framework 5.3.9.
+* Upgrades to Spring Boot 2.4.9.
+* Upgrades to Spring Data 2020.0.11 (Ockham-SR11).
+* Upgrades to Spring Data for Apache Geode 2.4.11.
+* Upgrades to Spring Build Conventions Gradle Plugin 0.0.38.
+
+
+Changes in version 1.5.2 (2021-06-24)
+-------------------------------------
+Aligns SBDG with Spring Boot 2.4.8.
+
+* Upgrades to Spring Boot 2.5.2
+* Upgrades to Spring Data 2021.0.2 (Pascal-SR2).
+* Upgrades to Spring Data for Apache Geode 2.5.2.
+* Upgrades to Spring Session BOM 2021.0.1.
+* Upgrades to Spring Session for Apache Geode 2.5.2.
+
+
+Changes in version 1.4.8 (2021-06-24)
+-------------------------------------
+Aligns SBDG with Spring Boot 2.4.8.
+
+* Upgrades to Byte Buddy 1.11.5.
+* Upgrades to Mockito 3.11.2.
+* Upgrades to Spring Boot 2.4.8.
+* Upgrades to Spring Data 2020.0.10 (Ockham-SR10).
+* Upgrades to Spring Data for Apache Geode 2.4.10.
+* Upgrades to Spring Session BOM 2020.0.5.
+* Upgrades to Spring Session for Apache Geode 2.4.5.
+
+
+Changes in version 1.5.1 (2021-06-15)
+-------------------------------------
+Aligns SBDG with Spring Boot 2.5.1.
+
+* Edits and revises the SBDG Reference Documentation Index.
+Resolves https://github.com/spring-projects/spring-boot-data-geode/pull/105.
+* Edits and revises Chapter 19 - Apache Geode API Extensions.
+Resolves https://github.com/spring-projects/spring-boot-data-geode/pull/106.
+* Upgrades to Gradle 6.9.
+* Upgrades to Spring Framework 5.3.8.
+* Upgrades to Spring Boot 2.5.1.
+* Upgrades to Spring Session for Apache Geode 2.5.1.
+
+
+Changes in version 1.4.7 (2021-06-15)
+-------------------------------------
+Aligns SBDG with Spring Boot 2.4.7.
+
+* Edits and revises the SBDG Reference Documentation Index.
+Resolves https://github.com/spring-projects/spring-boot-data-geode/pull/105.
+* Edits and revises Chapter 19 - Apache Geode API Extensions.
+Resolves https://github.com/spring-projects/spring-boot-data-geode/pull/106.
+* Upgrades to Byte Buddy 1.11.2.
+* Upgrades to Gradle 6.9.
+* Upgrades to Mockito 3.11.1.
+* Upgrades to Spring Framework 5.3.8.
+* Upgrades to Spring Boot 2.4.7.
+* Upgrades to Spring Session for Apache Geode 2.4.4.
+
+
+Changes in version 1.3.12.RELEASE (2021-06-15)
+----------------------------------------------
+Aligns SBDG with Spring Boot 2.3.12.RELEASE.
+
+* Edits and revises Chapter 19 - Apache Geode API Extensions.
+Resolves https://github.com/spring-projects/spring-boot-data-geode/pull/106.
+* Upgrades to Byte Buddy 1.11.2.
+* Upgrades to Gradle 6.9.
+* Upgrades to Mockito 3.11.1.
+* Upgrades to Spring Boot 2.3.12.RELEASE.
+* Upgrades to Spring Session for Apache Geode 2.3.6.RELEASE.
+
+
+Changes in version 1.5.0 (2021-05-20)
+-------------------------------------
+Aligns SBDG with Spring Boot 2.5.0 along with the latest versions of Spring Framework, Spring Data,
+Spring Session and Spring Test for Apache Geode.
+
+* Upgrade documentation references to VMware Tanzu GemFire for VMs (formerly Pivotal Cloud Cache) to product version
+1.13.1.
+* Upgrades to Awaitility 4.1.0.
+* Upgrades to Spring Framework 5.3.7.
+* Upgrades to Spring Boot 2.5.0
+* Upgrades to Spring Data Pascal SR1 (2021.0.1)
+* Upgrades to Spring Data for Apache Geode 2.5.1
+* Upgrades to Spring Session BOM 2021.0.0.
+* Upgrades to Spring Session for Apache Geode 2.5.0.
+* Upgrades to Spring Test for Apache Geode 0.0.25.
+
+
+Changes in version 1.4.6 (2021-05-20)
+-------------------------------------
+Aligns SBDG with Spring Boot 2.4.6 along with the latest versions of Spring Framework, Spring Data,
+Spring Session and Spring Test for Apache Geode.
+
+* Upgrades to Awaitility 4.1.0
+* Upgrades to Byte Buddy 1.11.0.
+* Upgrades to Mockito 3.10.0.
+* Upgrades to Spring Framework 5.3.7.
+* Upgrades to Spring Boot 2.4.6.
+* Upgrades to Spring Data Ockham-SR9.
+* Upgrades to Spring Data for Apache Geode 2.4.9.
+
+
+Changes in version 1.3.11.RELEASE (2021-05-20)
+----------------------------------------------
+Aligns SBDG with Spring Boot 2.3.11.RELEASE along with the latest versions of Spring Framework, Spring Data,
+Spring Session and Spring Test for Apache Geode.
+
+* Upgrades to Byte Buddy 1.11.0.
+* Upgrades to Mockito 3.10.0.
+* Upgrades to VMware Tanzu GemFire for VMS (Pivotal Cloud Cache) 1.12.2.
+* Upgrades to Spring Framework 5.2.15.RELEASE.
+* Upgrades to Spring Boot 2.3.11.RELEASE.
+
+
+Changes in version 1.5.0-RC1 (2021-04-28)
+-----------------------------------------
+Aligns SBDG with Spring Boot 2.5.0-RC1 along with the latest versions of Spring Framework, Spring Data,
+Spring Session and Spring Test for Apache Geode.
+
+* Upgrades to Gradle 6.8.3.
+* Upgrades to VMware Tanzu (Pivotal) GemFire 9.10.7.
+* Upgrades to Spring Framework 5.3.6.
+* Upgrades to Spring Boot 2.5.0-RC1
+* Upgrades to Spring Data Pascal GA (2021.0.0)
+* Upgrades to Spring Data for Apache Geode 2.5.0
+* Upgrades to Spring Session BOM 2021.0.0-RC1.
+* Upgrades to Spring Session for Apache Geode 2.5.0-RC1.
+* Upgrades to Testcontainers 1.15.3.
+
+
+Changes in version 1.4.5 (2021-04-28)
+-------------------------------------
+Aligns SBDG with Spring Boot 2.4.5 along with the latest versions of Spring Framework, Spring Data,
+Spring Session and Spring Test for Apache Geode.
+
+* Upgrades to Byte Buddy 1.10.22.
+* Upgrades to Gradle 6.8.3.
+* Upgrades to VMware Tanzu (Pivotal) GemFire 9.10.7.
+* Upgrades to Spring Framework 5.3.6.
+* Upgrades to Spring Boot 2.4.5
+* Upgrades to Spring Data Ockham-SR8.
+* Upgrades to Spring Data for Apache Geode 2.4.8.
+* Upgrades to Spring Session BOM 2020.0.4.
+* Upgrades to Spring Session for Apache Geode 2.4.3.
+* Upgrades to Testcontainers 1.15.3.
+
+
+Changes in version 1.3.10.RELEASE (2021-04-28)
+----------------------------------------------
+Aligns SBDG with Spring Boot 2.3.10.RELEASE along with the latest versions of Spring Framework, Spring Data,
+Spring Session and Spring Test for Apache Geode.
+
+* Upgrades to Apache Geode 1.12.2.
+* Upgrades to Byte Buddy 1.10.22.
+* Upgrades to Gradle 6.8.3.
+* Upgrades to Mockito 3.9.0.
+* Upgrades to VMware Tanzu (Pivotal) GemFire 9.10.7.
+* Upgrades to Spring Framework 5.2.14.RELEASE.
+* Upgrades to Spring Boot 2.3.10.RELEASE.
+* Upgrades to Spring Data Neumann-SR10.
+* Upgrades to Spring Data for Apache Geode & VMware Tanzu (Pivotal) GemFire 2.3.9.RELEASE.
+* Upgrades to Spring Session BOM Dragonfruit-SR3.
+* Upgrades to Spring Session for Apache Geode & VMware Tanzu (Pivotal) GemFire 2.3.5.RELEASE.
+* Upgrades to Testcontainers 1.15.3.
+
+
+Changes in version 1.5.0-M3 (2021-04-09)
+----------------------------------------
+Aligns SBDG with Spring Boot 2.5.0-M3 along with the latest versions of Spring Framework 5.x, Spring Data 2021.0.0,
+Spring Session 2021.0.0 and Spring Test for Apache Geode.
+
+* Creates and adds a new MappingPdxSerializerIncludedTypeRegistrar class to allow users to register
+additional application domain model types to be handled by SDG's MappingPdxSerializer and de/serialized as PDX bytes.
+* Cleans up instability and possible conflicts in the SBDG test suite, particularly when run CI build environments
+like Jenkins or Travis CI.
+* Uses the new Jenkins CI Declarative Pipeline syntax for builds.
+* Upgrades to Apache Geode 1.13.2.
+* Upgrades to Mockito 3.9.0.
+* Upgrades to Spring Framework 5.3.5.
+* Upgrades to Spring Boot 2.4.4.
+* Upgrades to Spring Cloud Bindings 1.7.1.
+* Upgrades to Spring Data Pascal-M5
+* Upgrades to Spring Data BOM 2021.0.0-M5 (Pascal-M5).
+* Upgrades to Spring Data for Apache Geode 2.5.0-M5.
+* Upgrades to Spring Test for Apache Geode 0.0.25-PASCAL-M5.
+
+
+Changes in version 1.4.4 (2021-04-09)
+-------------------------------------
+Aligns SBDG with Spring Boot 2.4.4 along with the latest versions of Spring Framework 5.x, Spring Data 2020.0.x,
+Spring Session 2020.0.x and Spring Test for Apache Geode.
+
+* Cleans up instability and possible conflicts in the SBDG test suite, particularly when run CI build environments
+like Jenkins or Travis CI.
+* Uses the new Jenkins CI Declarative Pipeline syntax for builds.
+* Upgrades to Apache Geode 1.13.2.
+* Upgrades to Mockito 3.9.0.
+* Upgrades to Spring Framework 5.3.5.
+* Upgrades to Spring Boot 2.4.4.
+* Upgrades to Spring Cloud Bindings 1.7.1.
+* Upgrades to Spring Data Ockham-SR6
+* Upgrades to Spring Data BOM 2020.0.6.
+* Upgrades to Spring Data for Apache Geode 2.4.6.
+* Upgrades to Spring Test for Apache Geode 0.0.24.
+
+
+Changes in version 1.5.0-M2 (2021-02-22)
+----------------------------------------
+Aligns SBDG with Spring Boot 2.5.0-M2 along with the latest versions of Spring Framework, Spring Data, Spring Session
+and Spring Test for Apache Geode.
+
+* States project goals in the reference documentation under the 'Introduction'.
+* Adds new chapter on 'Testing' in the reference documentation.
+* Adds new quick-start module to the Spring Geode Samples.
+* Edits README to include a new 'Get Started' section and a revised table containing the current and EOL versions
+along with links (URL) to the documentation for learning.
+* Upgrades to Gradle 6.8.2.
+* Upgrades to VMware Tanzu (Pivotal) GemFire 9.10.6.
+* Upgrades to Spring Build Conventions Gradle Plugin 0.0.37.
+* Upgrades to Spring Framework 5.3.4.
+* Upgrades to Spring Boot 2.5.0-M2.
+* Upgrades to Spring Data Pascal-M4.
+* Upgrades to Spring Data BOM 2021.0.0-M4 (Pascal-M4).
+* Upgrades to Spring Data for Apache Geode 2.5.0-M4.
+* Upgrades to Spring Test for Apache Geode 0.0.22.
+* Upgrades to Testcontainers 1.15.2.
+
+
+Changes in version 1.4.3 (2021-02-22)
+-------------------------------------
+Aligns SBDG with Spring Boot 2.4.3 along with the latest versions of Spring Framework, Spring Data, Spring Session
+and Spring Test for Apache Geode.
+
+* States project goals in the reference documentation under the 'Introduction'.
+* Adds new chapter on 'Testing' in the reference documentation.
+* Upgrades to Byte Buddy 1.10.20.
+* Upgrades to Gradle 6.8.2.
+* Upgrades to Mockito 3.8.0.
+* Upgrades to VMware Tanzu (Pivotal) GemFire 9.10.6.
+* Upgrades to Spring Build Conventions Gradle Plugin 0.0.37.
+* Upgrades to Spring Framework 5.3.4.
+* Upgrades to Spring Boot 2.4.3
+* Upgrades to Spring Data Ockham-SR5
+* Upgrades to Spring Data for Apache Geode 2.4.5.RELEASE.
+* Upgrades to Spring Session BOM 2020.0.3.
+* Upgrades to Spring Session for Apache Geode 2.4.2.
+* Upgrades to Spring Test for Apache Geode 0.0.22.
+* Upgrades to Testcontainers 1.15.2.
+
+
+Changes in version 1.3.9.RELEASE (2021-02-22)
+---------------------------------------------
+Aligns SBDG with Spring Boot 2.3.9.RELEASE along with the latest versions of Spring Framework, Spring Data,
+Spring Session and Spring Test for Apache Geode.
+
+* States project goals in the reference documentation under the 'Introduction'.
+* Adds new chapter on 'Testing' in the reference documentation.
+* Upgrades to Byte Buddy 1.10.20.
+* Upgrades to Gradle 6.8.2.
+* Upgrades to Mockito 3.8.0.
+* Upgrades to VMware Tanzu (Pivotal) GemFire 9.10.6.
+* Upgrades to Spring Framework 5.2.13.RELEASE.
+* Upgrades to Spring Boot 2.3.9.RELEASE.
+* Upgrades to Spring Data Neumann-SR7.
+* Upgrades to Spring Data for Apache Geode & VMware Tanzu (Pivotal) GemFire 2.3.7.RELEASE.
+* Upgrades to Spring Session BOM Dragonfruit-SR2.
+* Upgrades to Spring Session for Apache Geode & VMware Tanzu (Pivotal) GemFire 2.3.4.RELEASE.
+* Upgrades to Testcontainers 1.15.2.
+
+
+Changes in version 1.5.0-M1 (2021-01-25)
+----------------------------------------
+Aligns SBDG with Spring Boot 2.5.0-M1 along with the latest versions of Spring Framework, Spring Data
+and Spring Session.
+
+* Includes runtime dependency on 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310' in the spring-geode module
+for developer convenience when using the JSON Cache Data Import/Export feature.
+* Upgrades to Spring Boot 2.5.0-M1.
+* Upgrades to Spring Data BOM 2021.0.0-M2/Pascal-M2
+* Upgrades to Spring Data for Apache Geode 2.5.0-M2.
+* Upgrades to Spring Session 2021.0.0-M1.
+* Upgrades to Spring Session for Apache Geode 2.5.0-M1.
+* Upgrades to Spring Build Conventions Gradle Plugin 0.0.36.
+* Upgrades to Gradle 6.8.1.
+
+
+Changes in version 1.4.2 (2021-01-22)
+-------------------------------------
+Aligns SBDG with Spring Boot 2.4.2 along with the latest versions of Spring Framework, Spring Data
+and Spring Session.
+
+* Adds additional (organization of) log details to @EnableClusterAware annotation and functionality.
+* Adds documentation on the new @EnableClusterAware annotation, strictMatch attribute.
+* Improves standalone Apache Geode-based Cluster detection along with improving isolation between Conditions
+in the @EnableClusterAware annotation configuration as well as caching Condition state.
+* Upgrades to Spring Framework 5.3.3.
+* Upgrades to Spring Boot 2.4.2.
+* Upgrades to Spring Data BOM 2020.0.3/Ockham-SR3.
+* Upgrades to Spring Data for Apache Geode 2.4.3.
+* Upgrades to Mockito 3.7.7.
+
+
+Changes in version 1.3.8.RELEASE (2021-01-19)
+---------------------------------------------
+Aligns SBDG with Spring Boot 2.3.8.RELEASE along with the latest versions of Spring Framework, Spring Data
+and Spring Session.
+
+* Upgrades to Spring Boot 2.3.8.RELEASE.
+* Upgrades to Spring Session for Apache Geode & VMware Tanzu (Pivotal) GemFire 2.3.3.RELEASE.
+* Upgrades to Byte Buddy 1.10.19.
+* Upgrades to Gradle 6.8.
+* Upgrades to Mockito 3.7.7.
+* Upgrades to Testcontainers 1.15.1.
+
+
+Changes in version 1.2.13.RELEASE (2021-01-19)
+----------------------------------------------
+Aligns SBDG with Spring Boot 2.2.13.RELEASE along with the latest versions of Spring Framework, Spring Data
+and Spring Session.
+
+* Upgrades to Spring Boot 2.2.13.RELEASE.
+* Upgrades to Spring Session for Apache Geode & VMware Tanzu (Pivotal) GemFire 2.2.7.RELEASE.
+* Upgrades to Byte Buddy 1.10.19.
+* Upgrades to Gradle 6.8.
+* Upgrades to Mockito 3.7.7.
+* Upgrades to Testcontainers 1.15.1.
+
+
+Changes in version 1.4.1 (2021-01-15)
+----------------------------------------------
+Aligns SBDG with Spring Boot 2.4.1 along with the latest versions of Spring Framework, Spring Data
+and Spring Session.
+
+* Adds new spring-geode-cloud module with an early implementation of the Spring Cloud Bindings
+BindingsPropertiesProcessor for Apache Geode.
+* Adds new 'strictMatch' attribute to the @EnableClusterAware annotation enabling fail-fast logic and support
+when a required Apache Geode-based Cluster is not available to service Spring Boot, Apache Geode ClientCache
+applications.
+* Adds support in the @EnableClusterAware annotation logic to connect to secure (Auth & TLS/SSL enabled)
+Apache Geode clusters in any runtime environment.
+Resolves Resolves https://github.com/spring-projects/spring-boot-data-geode/issues/57.
+* Adds section on 'Gradle Dependency Management' under the 'Using Spring Boot for Apache Geode' section
+of the SBDG Reference Documentation.
+* Edits TIP in the Inline Caching Sample Guide to include a reference to the specific documentation on
+Synchronous, Inline Caching in the SBDG Reference Documentation.
+* Improves log output about runtime environment when users use the @EnableClusterAware annotation.
+Resolves https://github.com/spring-projects/spring-boot-data-geode/issues/99.
+* Upgrades to Apache Geode 1.13.1.
+* Uprade to Gradle 6.8.
+* Upgrades to Byte Buddy 1.10.19.
+* Upgrades to Mockito 3.7.0.
+* Upgrades to Pivotal Cloud Cache 1.13.0.
+* Upgrades to Spring Framework 5.3.2.
+* Upgrades to Spring Boot 2.4.1
+* Upgrades to Spring Data BOM 2020.0.2/Ockham-SR2
+* Upgrades to Spring Data for Apache Geode 2.4.2
+* Upgrades to Spring Session for Apache Geode 2.4.1.
+* Upgrades to Testcontainers 1.15.1.
+
+
+Changes in version 1.3.7.RELEASE (2020-12-11)
+----------------------------------------------
+Aligns SBDG with Spring Boot 2.3.7.RELEASE along with the latest versions of Spring Framework, Spring Data
+and Spring Session.
+
+* Add section on 'Gradle Dependency Management' under the 'Using Spring Boot for Apache Geode' section
+of the SBDG Reference Documentation.
+* Edits TIP in the Inline Caching Sample Guide to include a reference to the specific documentation on
+Synchronous, Inline Caching in the SBDG Reference Documentation.
+* Upgrades to Spring Framework 5.2.12.RELEASE.
+* Upgrades to Spring Boot 2.3.7.RELEASE.
+* Upgrades to Spring Data Release Train (BOM) Neumann-SR6.
+* Upgrades to Spring Data for Apache Geode & VMware Tanzu (Pivotal) GemFire 2.3.6.RELEASE.
+* Upgrades to Freefair Lombok Gradle Plugin 5.3.0.
+* Upgrades to Mockito 3.6.28.
+
+
+Changes in version 1.2.12.RELEASE (2020-12-10)
+----------------------------------------------
+Aligns SBDG with Spring Boot 2.2.12.RELEASE along with the latest versions of Spring Framework, Spring Data
+and Spring Session.
+
+* Adds documentation on using the 'spring-geode-bom' in the 'Using Spring Boot for Apache Geode' section
+of the SBDG Reference Documentation.
+* Edits TIP in the Inline Caching Sample Guide to include a reference to the specific documentation on
+Synchronous, Inline Caching in the SBDG Reference Documentation.
+* Add section on 'Gradle Dependency Management' under the 'Using Spring Boot for Apache Geode' section
+of the SBDG Reference Documentation.
+* Upgrades to Spring Framework 5.2.12.RELEASE.
+* Upgrades to Spring Boot 2.2.12.RELEASE.
+* Upgrades to Spring Data Release Train (BOM) Moore-SR12.
+* Upgrades to Spring Data for Apache Geode & VMware Tanzu (Pivotal) GemFire 2.2.12.RELEASE.
+* Upgrades to Freefair Lombok Gradle Plugin 5.3.0.
+* Upgrades to Gradle 6.7.1.
+* Upgrades to Mockito 3.6.28.
+
+
+Changes in version 1.4.0 (2020-12-09)
+-------------------------------------
+Aligns SBDG with Spring Boot 2.4.0 along with the latest versions of Spring Framework, Spring Data, Spring Session,
+and Spring Test.
+
+* Adds new Sample Guide and Code Example covering Asynchronous Inline Caching.
+* Adds documentation on using the new spring-geode-bom Maven BOM to manage SBDG module dependencies
+in Spring Boot application Maven POM files.
+* Adds additional builder methods on the AsyncInlineCachingRegionConfigurer to configure and AEQ;
+e.g. withSerialQueue().
+* Add metadata to the RepositoryAsyncEventListener.process(:List<AsyncEvent) method to track how many times the
+process(..) method has been called, whether it has been called at all and whether it has been called
+since the last check.
+* Fixes bug AEQ ID generation in for Async Inline Caching support, which causes a conflict in Apache Geodes JMX
+Management infrastructure, MBean ObjectNames.
+* Upgrades to Spring Framework 5.3.1
+* Upgrades to Spring Boot 2.4.0
+* Upgrades to Spring Data BOM 2020.0.1.
+* Upgrades to Spring Data for Apache Geode 2.4.1
+* Upgrades to Spring Session BOM 2020.0.1.
+* Upgrades to Spring Test for Apache Geode 0.0.21.RELEASE.
+* Upgrades to Spring Build Conventions Gradle Plugin 0.0.35.RELEASE.
+* Upgrades to Gradle 6.7.1.
+* Upgrades to Freefair Lombok Gradle Plugin 5.3.0.
+* Upgrades to Mockito 3.6.28.
+
+
+Changes in version 1.3.6.RELEASE (2020-11-19)
+---------------------------------------------
+Aligns SBDG with Spring Boot 2.3.6.RELEASE along with the latest versions of Spring Framework, Spring Data,
+Spring Session, and Spring Test.
+
+* Adds documentation on using the new spring-geode-bom Maven BOM to manage SBDG module dependencies
+in Spring Boot application Maven POM files.
+* Upgrades to Spring Framework 5.2.11.RELEASE.
+* Upgrades to Spring Boot 2.3.6.RELEASE.
+* Upgrades to Spring Build Conventions Gradle Plugin 0.0.35.RELEASE.
+* Upgrades to Gradle 6.7.1.
+* Upgrades to Freefair Lombok Gradle Plugin 5.3.0.
+
+
+Changes in version 1.4.0.RC1 (2020-11-10)
+-----------------------------------------
+Aligns SBDG with Spring Boot 2.4.0-RC1 along with the latest versions of Spring Framework, Spring Data,
+Spring Session, and Spring Test.
+
+* Adds Integration and Smoke Tests to assert the configuration the expected behavior of persisting and accessing (HTTP)
+Session state using Spring Session backed by Apache Geode with Mock Objects auto-configured with Spring Boot.
+* Upgrades to Spring Framework 5.3.0.
+* Upgrades to Spring Boot 2.4.0-RC1
+* Upgrades to Spring Data 2020.0.0.
+* Upgrades to Spring Data for Apache Geode & VMware Tanzu (Pivotal) GemFire 2.4.0
+* Upgrades to Spring Session for Apache Geode & VMware Tanzu (Pivotal) GemFire 2.4.0.
+* Upgrades to Spring Test for Apache Geode & VMware Tanzu (Pivotal) GemFire 0.0.20.RELEASE.
+* Upgrades to Byte Buddy 1.10.18.
+* Upgrades to Gradle 6.7.
+* Upgrades to Mockito 3.6.0.
+* Upgrades to Testcontainers 1.15.0.
+* Upgrades to VMware Tanzu (Pivotal) GemFire 9.10.5.
+
+
+Changes in version 1.3.5.RELEASE (2020-11-10)
+---------------------------------------------
+Aligns SBDG with Spring Boot 2.3.5.RELEASE along with the latest versions of Spring Framework, Spring Data,
+Spring Session, and Spring Test.
+
+* Adds Integration and Smoke Tests to assert the configuration the expected behavior of persisting and accessing (HTTP)
+Session state using Spring Session backed by Apache Geode with Mock Objects auto-configured with Spring Boot.
+* Upgrades to Spring Framework 5.2.10.RELEASE.
+* Upgrades to Spring Boot 2.3.5.RELEASE.
+* Upgrades to Spring Data Neumann-SR5.
+* Upgrades to Spring Data for Apache Geode & VMware Tanzu (Pivotal) GemFire 2.3.5.RELEASE.
+* Upgrades to Spring Session for Apache Geode & VMware Tanzu (Pivotal) GemFire 2.3.2.RELEASE.
+* Upgrades to Spring Test for Apache Geode & VMware Tanzu (Pivotal) GemFire 0.0.20.RELEASE.
+* Upgrades to Byte Buddy 1.10.18.
+* Upgrades to Gradle 6.7.
+* Upgrades to Mockito 3.6.0.
+* Upgrades to Testcontainers 1.15.0.
+* Upgrades to VMware Tanzu (Pivotal) GemFire 9.10.5.
+
+
+Changes in version 1.2.11.RELEASE (2020-11-09)
+----------------------------------------------
+Aligns SBDG with Spring Boot 2.2.11.RELEASE along with the latest versions of Spring Framework, Spring Data
+and Spring Session.
+
+* Adds a spring-geode-bom Maven BOM to manage all Spring Boot for Apache Geode module dependency versions.
+* Upgrades to Spring Framework 5.2.10.RELEASE.
+* Upgrades to Spring Boot 2.2.11.RELEASE.
+* Upgrades to Spring Data Moore-SR11.
+* Upgrades to Spring Data for Apache Geode & VMware Tanzu (Pivotal) GemFire 2.2.11.RELEASE.
+* Upgrades to Spring Session for Apache Geode & VMware Tanzu (Pivotal) GemFire 2.2.6.RELEASE.
+* Upgrades to Byte Buddy 1.10.18.
+* Upgrades to Gradle 6.7.
+* Upgrades to Mockito 3.6.0.
+* Upgrades to Testcontainers 1.15.0.
+
+
+Changes in version 1.1.11.RELEASE (2020-11-09)
+----------------------------------------------
+Aligns SBDG with Spring Boot 2.1.18.RELEASE along with the latest versions of Spring Framework, Spring Data
+and Spring Session.
+
+* Upgrades to Spring Framework 5.1.19.RELEASE.
+* Upgrades to Spring Boot 2.1.18.RELEASE.
+* Upgrades to Spring Data Lovelace-SR21.
+* Upgrades to Spring Data for Apache Geode & VMware Tanzu (Pivotal) GemFire 2.1.21.RELEASE.
+* Upgrades to Spring Session for Apache Geode & VMware Tanzu (Pivotal) GemFire 2.1.12.RELEASE.
+* Upgrades to Byte Buddy 1.10.18.
+* Upgrades to Mockito 3.6.0.
+* Upgrades to Testcontainers 1.15.0.
+
+
+Changes in version 1.4.0.M4 (2020-10-21)
+----------------------------------------
+Upgrades SBDG to Spring Boot 2.4.0-M4.
+
+* Adapts SBDG to API contractual/behavioral (breaking) changes in Jackson introduced between 2.11.2 and 2.11.3.
+* Fixes documentation spelling, grammar and formatting errors.
+* Upgrades to Spring Framework 5.3.0-RC2.
+* Upgrades to Spring Boot 2.4.0-M4.
+* Upgrades to Spring Data for Apache Geode 2.4.0-RC2.
+* Upgrades to Spring Data BOM 2020.0.0-RC2 (Ockham-RC2).
+* Upgrades to Byte Buddy 1.10.17.
+* Upgrades to Gradle 6.7.
+* Upgrades to Mockito 3.5.15.
+
+
+Changes in version 1.4.0.M3 (2020-09-18)
+----------------------------------------
+Upgrades SBDG to Spring Boot 2.4.0-M3.
+
+* Adds cross-references (links) between reference documentation and Sample Guides & Code, based on topic.
+* Adds WARNING in the documentation about Apache Geode's JVM shutdown hook when using the SBDG's Cache Data Export
+feature.
+* Changes the Async, Inline Caching Region configuration to append to the list of AEQs registered on the Region.
+* Edits reference documentation and corrects compiler syntax errors in documentation code snippets.
+* Removes all spring-gemfire-starter modules. As we move to Apache Geode 1.13.0 and beyond and since GemFire 9.10.x
+is the last commercially available, standalone version of GemFire based on Geode, which was based on Apache Geode 1.12,
+then SBDG can no longer support GemFire.
+* Removes explicit exclude on 'javax.servlet:javax.servlet-api' from Apache Geode dependencies.
+Resolves https://github.com/spring-projects/spring-boot-data-geode/issues/49.
+* Removes explicit exclude on 'org.apache.logging.log4j:log4j-core' from Apache Geode dependencies.
+Resolves https://github.com/spring-projects/spring-boot-data-geode/issues/48.
+* Upgrades to Apache Geode 1.13.0.
+* Upgrades to FreeFair Lombok Gradle Plugin 5.2.1.
+* Upgrades to Mockito 3.5.11.
+* Upgrades to Spring Framework 5.3.0-RC1.
+* Upgrades to Spring Boot 2.4.0-M3.
+* Upgrades to Spring Data BOM 2020.0.0-RC1.
+* Upgrades to Spring Data for Apache Geode 2.4.0-RC1.
+* Upgrades to Spring Session BOM 2020.0.0-RC1.
+* Upgrades to Spring Session for Apache Geode 2.4.0-RC1.
+* Upgrades to Spring Test for Apache Geode 0.0.19.RELEASE.
+
+
+Changes in version 1.3.4.RELEASE (2020-09-17)
+---------------------------------------------
+Upgrades SBDG to Spring Boot 2.3.4.RELEASE.
+
+* Adds cross-references between reference documentation and Sample Guides & Code based on topic.
+* Edits reference documentation and corrects compiler syntax errors in documentation code snippets.
+* Upgrades to Spring Framework 5.2.9.RELEASE.
+* Upgrades to Spring Boot 2.3.4.RELEASE.
+* Upgrades to Spring Data Neumann-SR4.
+* Upgrades to Spring Data for Apache Geode & VMware Tanzu (Pivotal) GemFire 2.3.4.RELEASE.
+* Upgrades to Spring Session BOM Dragonfruit-SR1.
+* Upgrades to Spring Session for Apache Geode & VMware Tanzu (Pivotal) GemFire 2.3.1.RELEASE.
+* Upgrades to Spring Test for Apache Geode & VMware Tanzu (Pivotal) GemFire 0.0.19.RELEASE.
+* Upgrades to Gradle 6.6.1.
+* Upgrades to Mockito 3.5.11.
+
+
+Changes in version 1.2.10.RELEASE (2020-09-17)
+----------------------------------------------
+Aligns SBDG with Spring Boot 2.2.10.RELEASE along with the latest versions of Spring Framework, Spring Data
+and Spring Session.
+
+* Edits chapter on caching in reference documentation.
+* Fixes compiler syntax errors in code snippets contained in reference documentation.
+* Upgrades to Spring Framework 5.2.9.RELEASE.
+* Upgrades to Spring Boot 2.2.10.RELEASE.
+* Upgrades to Spring Data Moore-SR10
+* Upgrades to Spring Data for Apache Geode & VMware Tanzu (Pivotal) GemFire 2.2.10.RELEASE.
+* Upgrades to Spring Session BOM Corn-SR4.
+* Upgrades to Spring Session for Apache Geode & VMware Tanzu (Pivotal) GemFire 2.2.5.RELEASE
+* Upgrades to Byte Buddy 1.10.14.
+* Upgrades to Mockito 3.5.10.
+* Upgrades to VMware Tanzu (Pivotal) GemFire 9.8.9.
+
+
+Changes in version 1.1.10.RELEASE (2020-09-17)
+----------------------------------------------
+Aligns SBDG with Spring Boot 2.1.17.RELEASE along with the latest versions of Spring Framework, Spring Data
+and Spring Session.
+
+* Upgrades to Spring Framework 5.1.18.RELEASE.
+* Upgrades to Spring Boot 2.1.17.RELEASE.
+* Upgrades to Spring Data Lovelace-SR20.
+* Upgrades to Spring Data for Apache Geode & VMware Tanzu (Pivotal) GemFire 2.1.20.RELEASE.
+* Upgrades to Spring Session BOM Bean-SR12.
+* Upgrades to Spring Session for Apache Geode & VMware Tanzu (Pivotal) GemFire 2.1.11.RELEASE.
+* Upgrades to Byte Buddy 1.10.14.
+* Upgrades to Mockito 3.5.10.
+
+
+Changes in version 1.3.3.RELEASE (2020-08-20)
+---------------------------------------------
+Upgrades SBDG to Spring Boot 2.3.3.RELEASE. Adds a Maven BOM to manage the SBDG module dependency versions collectively
+and consistently.
+
+* Includes a new spring-geode-bom module creating a Maven BOM to manage the SBDG module dependency versions
+in a collective and consistent way.
+Resolves https://github.com/spring-projects/spring-boot-data-geode/issues/93.
+* Revises (Edits) the chapter on "Caching with Apache Geode & VMware Tanzu GemFire".
+* Upgrades to Spring Boot 2.3.3.RELEASE.
+* Upgrades to Spring Data Neumann-SR3.
+* Upgrades to Spring Data for Apache Geode & VMware Tanzu GemFire 2.3.3.RELEASE.
+* Upgrades to Spring Test for Apache Geode & VMware Tanzu GemFire 0.0.18.RELEASE.
+* Upgrades to Spring Build Conventions Gradle Plugin 0.0.34.RELEASE.
+* Upgrades to Byte Buddy 1.10.14.
+* Upgrades to Gradle 6.6.
+* Upgrades to Mockito 3.5.0.
+
+
+Changes in version 1.4.0-M2 (2020-08-20)
+----------------------------------------
+Upgrades SBDG to Spring Boot 2.4.0-M2. Adds dedicated support for Asynchronous (Write-Behind) Inline Caching
+in addition to the already existing Synchronous (Read/Write-Through) Inline Caching support. Adds a Maven BOM
+to manage the SBDG module dependency versions collectively and consistently.
+
+* Adds dedicated support for configuration and use of the Asynchronous (Write-Behind) Inline Caching pattern in your
+Spring Boot applications.
+Resolves https://github.com/spring-projects/spring-boot-data-geode/issues/58.
+* Adds additional documentation to the Getting Started, Sample Guide explaining the compatible versions of Apache Geode,
+VMware Tanzu GemFire and Pivotal Cloud Cache (PCC; VMware Tanzu GemFire for VMs).
+* Adds a new, auto-configured/auto-registered Spring `ApplicationListener` that logs the current state of
+the Spring Environment.
+* Adds new Security Sample Guide and Code;
+Resolves https://github.com/spring-projects/spring-boot-data-geode/pull/81.
+* Includes a new spring-geode-bom module creating a Maven BOM to manage the SBDG module dependency versions
+in a collective and consistent way.
+Resolves https://github.com/spring-projects/spring-boot-data-geode/issues/93.
+* Sets Pivotal Cloud Cache (PCC) documentation version to 1.12, aligning with Apache Geode and VMware Tanzu GemFire.
+* Upgrades to Spring Framework 5.3.0-M2.
+* Upgrades to Spring Boot 2.4.0-M2.
+* Upgrades to Spring Data Ockham-M2 (2020.0.0-M2).
+* Upgrades to Spring Data for Apache Geode & VMware Tanzu GemFire 2.4.0-M2.
+* Upgrades to Spring Test for Apache Geode & VMware Tanzu GemFire 0.0.18.RELEASE.
+* Upgrades to Spring Build Conventions Gradle Plugin 0.0.34.RELEASE.
+* Upgrades to Byte Buddy 1.10.14.
+* Upgrades to Gradle 6.6.
+* Upgrades to Mockito 3.5.0.
+
+
+Changes in version 1.3.2.RELEASE (2020-08-07)
+---------------------------------------------
+Upgrades SBDG to Spring Boot 2.3.2.RELEASE. Adds new Security Sample Guide and Code demonstrating how to configure
+Apache Geode & VMware Tanzu GemFire Security (Auth + TLS) using Spring Boot.
+
+* Adds new Security Sample Guide and Code;
+Resolves https://github.com/spring-projects/spring-boot-data-geode/pull/81.
+* Adds additional documentation in the Getting Started Guide on matching versions of Apache Geode with VMware Tanzu
+GemFire, Pivotal Cloud Cache (PCC) and Spring Boot.
+* Fixes minor issue when launching the client Spring Boot application in the Spring Boot Actuator Sample.
+* Upgrades to Spring Framework 5.2.8.RELEASE.
+* Upgrades to Spring Boot 2.3.2.RELEASE.
+* Upgrades to Spring Data Neumann-SR2.
+* Upgrades to Spring Data for Apache Geode & VMware GemFire 2.3.2.RELEASE.
+* Upgrades to VMware Tanzu GemFire 9.10.2.
+
+
+Changes in version 1.2.9.RELEASE (2020-07-27)
+---------------------------------------------
+Aligns SBDG with Spring Boot 2.2.9.RELEASE along with the latest versions of Spring Framework, Spring Data
+and Spring Session.
+
+* Upgrades to Spring Framework 5.2.8.RELEASE.
+* Upgrades to Spring Boot 2.2.9.RELEASE.
+* Upgrades to Spring Data Moore-SR9
+* Upgrades to Spring Data for Apache Geode & VMware GemFire 2.2.9.RELEASE.
+* Upgrades to Spring Session BOM Corn-SR3.
+* Upgrades to Byte Buddy 1.10.13.
+* Upgrades to Gradle 6.5.1.
+* Upgrades to Mockito 3.4.4.
+* Upgrades to VMware GemFire 9.8.8.
+
+
+Changes in version 1.1.9.RELEASE (2020-07-27)
+---------------------------------------------
+Aligns SBDG with Spring Boot 2.1.16.RELEASE along with the latest versions of Spring Framework, Spring Data
+and Spring Session.
+
+* Upgrades to Spring Framework 5.1.17.RELEASE.
+* Upgrades to Spring Boot 2.1.16.RELEASE.
+* Upgrades to Spring Data Lovelace-SR19.
+* Upgrades to Spring Data for Apache Geode & VMware GemFire 2.1.19.RELEASE.
+* Upgrades to Spring Session BOM Bean-SR11.
+* Upgrades to Byte Buddy 1.10.13.
+* Upgrades to Mockito 3.4.4.
+
+
+Changes in version 1.4.0-M1 (2020-07-27)
+----------------------------------------
+Upgrades SBDG to Spring Boot 2.4.0-M1 and aligns SBDG with Spring Framework 5.3, Spring Data Ockham (2020.0.0)
+and Spring Session 2020.0.0.
+
+* Upgrades to Spring Framework 5.3.0-M1.
+* Upgrades to Spring Boot 2.4.0-M1.
+* Upgrades to Spring Data BOM Ockham-M1 (2020.0.0-M1).
+* Upgrades to Spring Data for Apache Geode & VMware GemFire 2.4.0-M1.
+* Upgrades to Spring Session BOM 2020.0.0-M1.
+* Upgrades to Spring Session for Apache Geode & VMware GemFire 2.4.0-M1.
+
+
+Changes in version 1.3.1.RELEASE (2020-07-27)
+---------------------------------------------
+Upgrades SBDG to Spring Boot 2.3.1.RELEASE. Adds support to extend the Cache Data Import/Export API.
+
+* Adds support to customize and extend the Cache Data Import/Export API in order to  to affect the behavior of
+import/export functionality including Data Format, Resource Resolution and Resource Reading/Writing.
+Resolves https://github.com/spring-projects/spring-boot-data-geode/issues/92.
+* Renames the 'Working with Data' chapter to 'Using Data' in the reference documentation.
+* Includes additional documentation on how to extend the Cache Data Import/Export API.
+* Edits the 'Apache Geode API Extensions' chapter to include documentation on the ObjectPdxInstanceAdapter class
+along with revising the other sections.
+* Upgrades to Spring Framework 5.2.7.RELEASE.
+* Upgrades to Spring Boot 2.3.1.RELEASE.
+* Upgrades to Spring Build Conventions Gradle Plugin 0.0.33.RELEASE.
+* Upgrades to Spring Data Neumann-SR1.
+* Upgrades to Spring Data for Apache Geode & VMware GemFire 2.3.1.RELEASE.
+* Upgrades to Spring Test for Apache Geode & VMware GemFire 0.0.17.RELEASE.
+* Upgrades to Byte Buddy 1.10.13.
+* Upgrades to Mockito 3.4.4.
+
+
+Changes in version 1.2.8.RELEASE (2020-06-16)
+---------------------------------------------
+Aligns SBDG with Spring Boot 2.2.8.RELEASE along with the latest versions of Spring Framework and Spring Data.
+
+* Upgrades to Spring Framework 5.2.7.RELEASE.
+* Upgrades to Spring Boot 2.2.8.RELEASE.
+* Upgrades to Spring Data Moore-SR8.
+* Upgrades to Spring Data for Apache Geode & VMware GemFire 2.2.8.RELEASE.
+* Upgrades to Byte Buddy 1.10.11.
+* Upgrades to Gradle 6.5.
+* Upgrades to Testcontainers 1.14.3.
+
+
+Changes in version 1.1.8.RELEASE (2020-06-16)
+---------------------------------------------
+Aligns SBDG with Spring Boot 2.1.15.RELEASE along with the latest versions of Spring Framework and Spring Data.
+
+* Upgrades to Spring Framework 5.1.16.RELEASE.
+* Upgrades to Spring Boot 2.1.15.RELEASE.
+* Upgrades to Spring Data Lovelace-SR18.
+* Upgrades to Spring Data for Apache Geode & VMware GemFire 2.1.18.RELEASE.
+* Upgrades to Byte Buddy 1.10.11.
+* Upgrades to Testcontainers 1.14.3.
+
+
+Changes in version 1.3.0.RELEASE (2020-06-11)
+---------------------------------------------
+Upgrades SBDG to Spring Boot 2.3.0.RELEASE. Includes new documentation on SBDG's, Apache Geode API extensions
+as well as running and using Apache Geode in Docker.
+
+* Adds new configuration property to enable/disable cache data imports.
+* Adds support to format JSON on cache data export.
+Resolves https://github.com/spring-projects/spring-boot-data-geode/issues/89.
+* Fixes bug in Logging auto-configuration to back away when the user explicitly configures Apache Geode logging.
+Resolves https://github.com/spring-projects/spring-boot-data-geode/issues/85.
+* Fixes bug in cache data export caused by Apache Geode JVM Shutdown Hook.
+Resolves https://github.com/spring-projects/spring-boot-data-geode/issues/88.
+* Fixes bug with cache data import when using the @EnableClusterAware annotation.
+https://github.com/spring-projects/spring-boot-data-geode/issues/90.
+* Fixes bug with cache data import when using client LOCAL Regions and no PDX type registry exists.
+https://github.com/spring-projects/spring-boot-data-geode/issues/91.
+* Includes documentation on how to run the Samples from the IDE as well as the command-line using Gradle.
+* Includes new chapter in reference documentation on SBDG's, Apache Geode API extensions.
+Resolves https://github.com/spring-projects/spring-boot-data-geode/issues/84.
+* Includes new chapter in reference documentation on running and using Apache Geode in Docker.
+Resolves https://github.com/spring-projects/spring-boot-data-geode/issues/86.
+* Upgrades to Byte Buddy 1.10.11.
+* Upgrades to Gradle 6.5.
+* Upgrades to Spring Build Conventions Gradle Plugin 0.0.32.RELEASE.
+* Upgrades to Spring Boot 2.3.0.RELEASE.
+* Upgrades to Spring Data for Apache Geode & VMware Tanzu GemFire 2.3.0.RELEASE.
+* Upgrades to Spring Data Release Train Neumann-RELEASE.
+* Upgrades to Spring Session for Apache Geode & VMware Tanzu GemFire 2.3.0.RELEASE
+* Upgrades to Spring Session BOM Dragonfruit-RELEASE.
+* Upgrades to Spring Test for Apache Geode & VMware Tanzu GemFire 0.0.16.RELEASE.
+* Upgrades to Testcontainers 1.14.3.
+
+
+Changes in version 1.2.7.RELEASE (2020-05-19)
+---------------------------------------------
+Aligns SBDG with the latest versions of Spring Framework, Spring Boot, Spring Data
+and Spring Session for Apache Geode & VMware Tanzu GemFire.
+
+* Asserts the auto-configuration of PDX when no PDX configuration is defined by the user, when PDX configuration is
+customized with SDG properties and when the user manually configures PDX, thereby overriding auto-configuration.
+* Upgrades to Spring Framework 5.2.6.RELEASE.
+* Upgrades to Spring Boot 2.2.7.RELEASE.
+* Upgrades to Spring Data for Apache Geode & VMware Tanzu GemFire 2.2.7.RELEASE.
+* Upgrades to Spring Data Release Train Moore-SR7.
+* Upgrades to Spring Session for Apache Geode & VMware Tanzu GemFire 2.2.4.RELEASE.
+* Upgrades to Spring Test for Apache Geode & VMware Tanzu GemFire 0.0.14.RELEASE.
+* Upgrades to Byte Buddy 1.10.10.
+* Upgrades to Gradle 6.4.1.
+* Upgrades to Testcontainers 1.14.1.
+
+
+Changes in version 1.1.7.RELEASE (2020-05-18)
+---------------------------------------------
+Aligns SBDG with the latest versions of Spring Framework, Spring Boot, Spring Data
+and Spring Session for Apache Geode & VMware Tanzu GemFire.
+
+* Upgrades to Spring Framework 5.1.15.RELEASE.
+* Upgrades to Spring Boot 2.1.14.RELEASE.
+* Upgrades to Spring Data for Apache Geode & VMware Tanzu GemFire 2.1.17.RELEASE.
+* Upgrades to Spring Data Release Train Lovelace-SR17.
+* Upgrades to Spring Session for Apache Geode & VMware Tanzu GemFire 2.1.10.RELEASE.
+* Upgrades to Spring Session BOM Bean-SR10.
+* Upgrades to Byte Buddy 1.10.10.
+* Upgrades to Mockito 3.3.3.
+* Upgrades to Testcontainers 1.14.1.
+
+
+Changes in version 1.3.0.RC1 (2020-05-13)
+----------------------------------------
+Upgrades SBDG to Spring Boot 2.3.0.RC1. Includes new Cache Data Import/Export feature with support for JSON
+out-of-the-box.
+
+* Includes support for importing and exporting JSON to GemFire/Geode cache Regions.
+Resolves https://github.com/spring-projects/spring-boot-data-geode/issues/67.
+* Adds many new Apache Geode API extensions to the 'apache-geode-extensions' module thereby making GemFire/Geode's
+public API even easier and more reliable to use, and application friendly.
+* Upgrades to Byte Buddy 1.10.10.
+* Upgrades to Spring Framework 5.2.6.RELEASE.
+* Upgrades to Spring Boot 2.3.0.RC1.
+* Upgrades to Spring Data for Apache Geode & VMware Tanzu GemFire (SDG) 2.3.0.RC2.
+* Upgrades to Spring Data Release Train Neumann-RC2.
+* Upgrades to Spring Test for Apache Geode & VMware Tanzu GemFire (STDG) 0.0.15.RELEASE.
+* Upgrades Testcontainers to 1.14.1.
+
+
+Changes in version 1.3.0.M4 (2020-04-19)
+----------------------------------------
+Upgrades SBDG to Spring Boot 2.3.0.M4.  Aligns with Spring Framework 5.2.5.RELEASE, Spring Data Neumann-RC1,
+Spring Session for Apache Geode & VMware Tanzu GemFire (SSDG) 2.3.0.RC2, Spring Test for Apache Geode
+& VMware Tanzu GemFire (STDG) 0.0.14.RELEASE.
+
+* Adds new Sample for Multi-Site Caching with Spring's Cache Abstraction and Apache Geode (VMware Tanzu GemFire)
+Multi-site WAN Gateway configuration.  Resolves https://github.com/spring-projects/spring-boot-data-geode/issues/80.
+* Adds support for Geode Properties (gemfire.properties) declared in Spring Boot application.properties.
+Resolves https://github.com/spring-projects/spring-boot-data-geode/issues/79.
+* Upgrades to Apache Geode 1.12.0.
+* Upgrades to Byte Buddy 1.10.9.
+* Upgrades to VMware Tanzu GemFire 9.10.0.
+* Upgrades to Spring Framework 5.2.5.RELEASE.
+* Upgrades to Spring Boot 2.3.0.M4.
+* Upgrades to Spring Data for Apache Geode & VMware Tanzu GemFire (SDG) 2.3.0.RC1.
+* Upgrades to Spring Data Release Train Neumann-RC1.
+* Upgrades to Spring Session for Apache Geode & VMware Tanzu GemFire (SSDG) 2.3.0.RC2.
+* Upgrades to Spring Session BOM Dragonfruit-RC2.
+* Upgrades to Spring Test for Apache Geode & VMware Tanzu GemFire (STDG) 0.0.14.RELEASE.
+* Upgrades Testcontainers to 1.14.0.
+
+
+Changes in version 1.2.6.RELEASE (2020-03-27)
+---------------------------------------------
+Aligns SBDG with Spring Boot 2.2.6.RELEASE, Spring Framework 5.2.5.RELEASE, Spring Data Release Train Moore-SR6,
+Spring Session Corn-SR2, Spring Test for Apache Geode & VMware Tanzu GemFire 0.0.13.RELEASE, Apache Geode 1.9.2,
+and VMware Tanzu GemFire 9.8.7.
+
+* Fix SSL auto-configuration when TLS is enabled to properly configure the SSL default context;
+See https://github.com/spring-projects/spring-boot-data-geode/issues/77.
+* Upgrades to Gradle 6.2.
+* Upgrades to Mockito 3.3.3.
+* Upgrades to VMware Tanzu GemFire 9.8.7.
+* Upgrades to Spring Framework 5.2.5.RELEASE.
+* Upgrades to Spring Boot 2.2.6.RELEASE.
+* Upgrades to Spring Data for Apache Geode & VMware Tanzu GemFire 2.2.6.RELEASE.
+* Upgrades to Spring Data Release Train Moore-SR6.
+* Upgrades to Spring Session BOM Corn-SR2.
+
+
+Changes in version 1.3.0.M3 (2020-03-20)
+----------------------------------------
+Upgrades SBDG to Spring Boot 2.3.0.M3.  Aligns with Spring Framework 5.2.4.RELEASE, Spring Data Neumann-M4,
+Spring Session for Apache Geode & VMware Tanzu GemFire (SSDG) 2.3.0.RC1, Spring Test for Apache Geode
+& VMware Tanzu GemFire (STDG) 0.0.13.RELEASE.
+
+* Adds Maven POM file(s) for SBDG Samples in order to build and run the Sample Code independently from the main project
+Gradle build. Resolves (partly) https://github.com/spring-projects/spring-boot-data-geode/issues/75.
+* Fixes SSL auto-configuration when TLS is enabled to properly configure the SSL default context;
+Resolves https://github.com/spring-projects/spring-boot-data-geode/issues/77.
+* Introduces new look-and-feel for the reference guide.
+* Upgrades to Byte Buddy 1.10.8.
+* Upgrades to Mockito 3.3.3.
+* Upgrades to Spring Framework 5.2.4.RELEASE.
+* Upgrades to Spring Boot 2.3.0.M3.
+* Upgrades to Spring Data for Apache Geode & VMware Tanzu GemFire 2.3.0.M4.
+* Upgrades to Spring Data Release Train Neumann-M4.
+* Upgrades to Spring Session for Apache Geode & VMware Tanzu GemFire 2.3.0.RC1.
+* Upgrades to Spring Test for Apache Geode & VMware Tanzu GemFire 0.0.13.RELEASE.
+* Upgrades to Testcontainers 1.13.0.
+
+
+Changes in version 1.2.5.RELEASE (2020-03-04)
+---------------------------------------------
+Aligns SBDG with Spring Framework 5.2.4.RELEASE, Spring Boot 2.2.5.RELEASE, Spring Data Moore-SR5
+and Spring Session for Apache Geode & VMware Tanzu GemFire 2.2.3.RELEASE.
+
+* Upgrades to Spring Framework 5.2.4.RELEASE.
+* Upgrades to Spring Boot 2.2.5.RELEASE.
+* Upgrades to Spring Data for Apache Geode & VMware Tanzu GemFire 2.2.5.RELEASE.
+* Upgrades to Spring Data Release Train Moore-SR5.
+* Upgrades to Spring Session for Apache Geode & VMware Tanzu GemFire 2.2.3.RELEASE.
+* Upgrades to Spring Session BOM Corn-SR1
+* Upgrades to Mockito 3.3.0.
+
+
+Changes in version 1.1.6.RELEASE (2020-03-04)
+---------------------------------------------
+Aligns SBDG with Spring Framework 5.1.14.RELEASE, Spring Boot 2.1.13.RELEASE, Spring Data Lovelace-SR16
+and Spring Session for Apache Geode & VMware Tanzu GemFire 2.1.9.RELEASE.
+
+* Upgrades to Spring Framework 5.1.14.RELEASE.
+* Upgrades to Spring Boot 2.1.13.RELEASE.
+* Upgrades to Spring Data for Apache Geode & VMware Tanzu GemFire 2.1.16.RELEASE.
+* Upgrades to Spring Data Release Train Lovelace-SR16.
+* Upgrades to Spring Session for Apache Geode & VMware Tanzu GemFire 2.1.9.RELEASE.
+* Upgrades to Spring Session BOM Bean-SR9.
+* Upgrades to Byte Buddy 1.10.8.
+* Upgrades to Mockito 3.3.0.
+* Upgrades to Testcontainers 1.12.5.
+
+
+Changes in version 1.3.0.M2 (2020-02-20)
+----------------------------------------
+Aligns SBDG with Spring Boot 2.3.0.M2.  Upgrades to Spring Data Neumann-M3, Spring Session for Apache Geode
+& VMware Tanzu GemFire 2.3.0.M2 and Spring Test for Apache Geode & VMware Tanzu GemFire 0.0.13.RELEASE.  Adds new
+spring-geode-starter-logging module to configure Apache Geode logging.
+
+* Upgrades to Spring Boot 2.3.0.M2.
+* Upgrades to Spring Data for Apache Geode & VMware Tanzu GemFire 2.3.0.M3.
+* Upgrades to Spring Data Release Train Neumann-M3.
+* Upgrades to Spring Session for Apache Geode & VMware Tanzu GemFire 2.3.0.M2.
+* Upgrades to Spring Session BOM Dragonfruit-M2.
+* Upgrades to Spring Test for Apache Geode & VMware Tanzu GemFire 0.0.13.RELEASE.
+* Upgrades to Byte Buddy 1.10.7.
+* Upgrades to FreeFair Lombok Gradle Plugin 5.0.0-rc2.
+* Upgrades to Testcontainers 1.12.5.
+* Began removing uses of internal Apache Geode APIs from SBDG;
+Resolves (partly) https://github.com/spring-projects/spring-boot-data-geode/issues/70.
+* Adds a new spring-geode-starter-logging module to configure and control Apache Geode & VMware Tanzu GemFire logging;
+Resolves https://github.com/spring-projects/spring-boot-data-geode/issues/73.
+* Adds documentation on how to enable Apache Geode & VMware Tanzu GemFire logging with Spring Boot;
+Resolves https://github.com/spring-projects/spring-boot-data-geode/issues/71.
+* Adds documentation on how to configure and bootstrap Apache Geode/VMware Tanzu GemFire Managers with Spring Boot;
+Resolves https://github.com/spring-projects/spring-boot-data-geode/issues/72.
+
+
+Changes in version 1.3.0.M1 (2020-01-24)
+----------------------------------------
+Aligns SBDG with Spring Framework 5.2.3.RELEASE, Spring Boot 2.3.0.M1, Spring Data Neumann-M2
+and Spring Session for Apache Geode & VMware Tanzu GemFire 2.3.0.M1
+
+* Upgrades to Spring Framework 5.2.3.RELEASE.
+* Upgrades to Spring Boot 2.3.0.M1
+* Upgrades to Spring Data for Apache Geode & VMware Tanzu GemFire 2.3.0.M2
+* Upgrades to Spring Data Release Train Nuemann-M2.
+* Upgrades to Spring Session for Apache Geode & VMware Tanzu GemFire 2.3.0.M1
+* Upgrades to Spring Session BOM Corn-RELEASE.
+* Upgrades to Spring Test for Apache Geode & VMware Tanzu GemFire 0.0.13.NEUMANN-BUILD-SNAPSHOT.
+* Upgrades to ByteBuddy 1.10.5
+* Upgrades to Mockito 3.2.4.
+* Removes some uses of internal Apache Geode APIs to resolve gh-70.
+
+
+Changes in version 1.2.4.RELEASE (2020-01-24)
+---------------------------------------------
+Aligns SBDG with Spring Boot 2.2.4.RELEASE.
+
+* Upgrades to Spring Boot 2.2.4.RELEASE
+
+
+Changes in version 1.2.3.RELEASE (2020-01-24)
+---------------------------------------------
+Aligns SBDG with Spring Framework 5.2.3.RELEASE, Spring Boot 2.2.3.RELEASE, Spring Data Moore-SR4
+and Spring Session for Apache Geode & VMware Tanzu GemFire 2.2.2.RELEASE.
+
+* Upgrades to Spring Framework 5.2.3.RELEASE.
+* Upgrades to Spring Boot 2.2.3.RELEASE
+* Upgrades to Spring Data for Apache Geode & VMware Tanzu GemFire 2.2.4.RELEASE
+* Upgrades to Spring Data Release Train Moore-SR4.
+* Upgrades to Spring Session for Apache Geode & VMware Tanzu GemFire 2.2.2.RELEASE.
+* Upgrades to Spring Session BOM Corn-RELEASE.
+* Upgrades to Spring Test for Apache Geode & VMware Tanzu GemFire 0.0.12.RELEASE.
+* Upgrades to Mockito 3.2.4.
+* Removes some uses of internal Apache Geode APIs to resolve gh-70.
+
+
+Changes in version 1.1.5.RELEASE (2020-01-24)
+---------------------------------------------
+Aligns SBDG with Spring Framework 5.1.13.RELEASE, Spring Boot 2.1.12.RELEASE, Spring Data Lovelace-SR15
+and Spring Session for Apache Geode & VMware Tanzu GemFire 2.1.8.RELEASE.
+
+* Upgrades to Spring Framework 5.1.13.RELEASE.
+* Upgrades to Spring Boot 2.1.12.RELEASE.
+* Upgrades to Spring Data for Apache Geode & VMware Tanzu GemFire 2.1.15.RELEASE.
+* Upgrades to Spring Data Release Train Lovelace-SR15.
+* Upgrades to Spring Session for Apache Geode & VMware Tanzu GemFire 2.1.8.RELEASE.
+* Upgrades to Spring Session BOM Bean-SR8.
+* Upgrades to Mockito 3.2.4.
+
+
+Changes in version 1.2.2.RELEASE (2019-12-11)
+---------------------------------------------
+Aligns SBDG with Spring Framework 5.2.2.RELEASE, Spring Boot 2.2.2.RELEASE, Spring Data Moore-SR3
+and Spring Session for Apache Geode & VMware Tanzu GemFire 2.2.1.RELEASE.
+
+* Improves EnableClusterAware configuration logic to identify CacheTypeAwareRegionFactoryBeans.
+* Configures the Pool used by Spring Session to the DEFAULT Pool.
+* Upgrades to Spring Framework 5.2.2.RELEASE.
+* Upgrades to Spring Boot 2.2.2.RELEASE.
+* Upgrades to Spring Data for Apache Geode & VMware Tanzu GemFire 2.2.3.RELEASE
+* Upgrades to Spring Data Release Train Moore-SR3.
+* Upgrades to Spring Session for Apache Geode & VMware Tanzu GemFire 2.2.1.RELEASE.
+* Upgrades to Spring Session BOM Corn-RELEASE.
+* Upgrades to Spring Test for Apache Geode & VMware Tanzu GemFire 0.0.11.RELEASE.
+* Upgrades to Mockito 3.2.0.
+* Upgrades to TestContainers 1.12.3.
+
+
+Changes in version 1.1.4.RELEASE (2019-12-11)
+---------------------------------------------
+Aligns SBDG with Spring Framework 5.1.12.RELEASE, Spring Boot 2.1.11.RELEASE, Spring Data Lovelace-SR14
+and Spring Session for Apache Geode & VMware Tanzu GemFire 2.1.7.RELEASE.
+
+* Upgrades to Spring Framework 5.1.12.RELEASE.
+* Upgrades to Spring Boot 2.1.11.RELEASE.
+* Upgrades to Spring Data for Apache Geode & VMware Tanzu GemFire 2.1.14.RELEASE.
+* Upgrades to Spring Data Release Train Lovelace-SR14.
+* Upgrades to Spring Session for Apache Geode & VMware Tanzu GemFire 2.1.7.RELEASE.
+* Upgrades to Spring Session BOM Bean-SR8.
+* Upgrades to Gradle Wrapper (gradlew) 5.6.4.
+* Upgrades to Mockito 3.2.0.
+* Upgrades to TestContainers 1.12.3.
+
+
+Changes in version 1.2.1.RELEASE (2019-11-06)
+---------------------------------------------
+Aligns SBDG with Spring Framework 5.2.1.RELEASE, Spring Boot 2.2.1.RELEASE and Spring Data Moore-SR1.  Improves test
+coverage around cluster configuration metadata push from client to server.
+
+* Adds additional test cases to assert Spring Cloud ClientHttpRequestInterceptors do not interfere with Spring Data
+Geode's cluster configuration push from client to server using REST over HTTP.
+* Upgrades to Spring Framework 5.2.1.RELEASE.
+* Upgrades to Spring Boot 2.2.1.RELEASE.
+* Upgrades to Spring Data for Apache Geode & VMware Tanzu GemFire 2.2.1.RELEASE.
+* Upgrades to Spring Data Release Train Moore-SR1.
+
+
+Changes in version 1.1.3.RELEASE (2019-11-06)
+---------------------------------------------
+Aligns SBDG with Spring Framework 5.1.11.RELEASE, Spring Boot 2.1.10.RELEASE and Spring Data Lovelace-SR12.  Improves
+test coverage around cluster configuration metadata push from client to server.
+
+* Adds additional test cases to assert Spring Cloud ClientHttpRequestInterceptors do not run interference with
+Spring Data Geode's cluster configuration push from client to server over HTTP/REST.
+* Upgrades to Spring Framework 5.1.11.RELEASE.
+* Upgrades to Spring Boot 2.1.10.RELEASE.
+* Upgrades to Spring Data for Apache Geode & VMware Tanzu GemFire 2.1.12.RELEASE.
+* Upgrades to Spring Data Release Train Lovelace-SR12.
+
+
+Changes in version 1.2.0.RELEASE (2019-10-18)
+---------------------------------------------
+Tidies up the SBDG project for the 1.2 GA release.  Removes the spring-cloudcache-starter* modules and then clarifies
+in documentation about switching from Apache Geode to VMware Tanzu GemFire bits, even in the context of Pivotal Platform
+(PCF) using Pivotal Cloud Cache (PCC).  Adds auto-configuration support for TLS in PCF when using PCC.
+
+* Adds auto-configuration support to detect when TLS is enabled in PCF when using PCC and then configures SSL between
+the client and servers in a PCC cluster using the default SSL context provided via the JRE.
+See https://github.com/spring-projects/spring-boot-data-geode/issues/61.
+* Edits the documentation in the Appendix on switching between Apache Geode and VMware Tanzu GemFire or Pivotal Cloud
+Cache (PCC) with additional details on the required Pivotal Commercial Repository declaration as well ass the server
+declaration containing user credentials required to authenticate with the repo in ~/.m2/settings.xml.
+See https://github.com/spring-projects/spring-boot-data-geode/issues/62.
+* Removes all spring-cloudcache-starter* modules.  User must use the spring-gemfire-starter* modules for both
+VMware Tanzu GemFire as well as Pivotal Cloud Cache (PCC).
+See https://github.com/spring-projects/spring-boot-data-geode/issues/63.
+* Upgrades to Spring Boot 2.2.0.RELEASE.
+* Upgrades to Spring Session for Apache Geode & VMware Tanzu GemFire 2.2.0.RELEASE.
+* Upgrades to Spring Session BOM Corn-RELEASE.
+
+
+Changes in version 1.2.0.RC1 (2019-10-03)
+-----------------------------------------
+Adds a new "Getting Stated" Guide showing users how to get started quickly, easily and reliably, building Apache Geode
+applications using Spring Boot, and in particular, Spring Boot for Apache Geode.
+
+* Add new "Getting Started" Guide and Example Code showing users how to use Spring Boot for Apache Geode.
+See https://github.com/spring-projects/spring-boot-data-geode/issues/54.
+* Improved details on switching from Apache Geode to Pivotal Cloud Cache (PCC) when deploying and running your
+Spring Boot applications to Pivotal Platform (PCF) using PCC.
+See https://github.com/spring-projects/spring-boot-data-geode/issues/59.
+* Added a Smoke Test test suite to cover common use cases of Spring Boot for Apache Geode.
+See https://github.com/spring-projects/spring-boot-data-geode/issues/51.
+* Upgrades to Apache Geode 1.9.1.
+* Upgrades to Mockito 3.1.0.
+* Upgrades to VMware Tanzu GemFire 9.8.4.
+* Upgrades to Spring Framework 5.2.0.RELEASE
+* Upgrades to Spring Boot 2.2.0.RC1.
+* Upgrades to Spring Data for Apache Geode & VMware Tanzu GemFire 2.2.0.RELEASE.
+* Upgrades to Spring Data Release Train Moore-RELEASE.
+* Upgrades to Spring Session BOM Corn-RC1.
+* Upgrades to Spring Session for Apache Geode & VMware Tanzu GemFire 2.2.0.RC1.
+* Upgrades to Spring Test for Apache Geode & VMware Tanzu GemFire 0.0.9.RELEASE.
+
+
+Changes in version 1.1.2.RELEASE (2019-10-02)
+---------------------------------------------
+Fixes auto-wiring issues with auto-configured per Region GemfireTemplate beans in application components.
+
+* Fixes auto-wiring issue with the auto-configure Region GemfireTemplate beans provided by SBDG.
+See https://github.com/spring-projects/spring-boot-data-geode/issues/55.
+* Edits documentation providing details on how to acquire the Pivotal Cloud Cache (PCC) or VMware Tanzu GemFire bits
+when switching between Apache Geode and VMware Tanzu GemFire or PCC.
+See https://github.com/spring-projects/spring-boot-data-geode/issues/59.
+* Upgrades to Mockito 3.1.0
+* Upgrades to Spring Framework 5.1.10.RELEASE.
+* Upgrades to Spring Boot 2.1.9.RELEASE.
+* Upgrades to Spring Data for Apache Geode & VMware Tanzu GemFire 2.1.11.RELEASE.
+* Upgrades to Spring Data Release Train Lovelace-SR11.
+* Upgrades to Spring Session BOM Bean-SR8.
+* Upgrades to Spring Session for Apache Geode & VMware Tanzu GemFire 2.1.6.RELEASE.
+
+
+Changes in version 1.2.0.M3 (2019-09-24)
+----------------------------------------
+Adds support for dynamic auto-configuration of Spring Boot applications to detect the presence of an Apache Geode
+or Pivotal Cloud Cache (PCC) cluster.  When a cluster is available, SBDG applications will run in a client/server
+topology, otherwise SBDG applications switch to local-only mode.
+
+* Adds @EnableClusterAware configuration support to allow application developers to switch between local
+and client/server development environments.
+https://github.com/spring-projects/spring-boot-data-geode/issues/52
+* Adds chapter in the Reference Guide on 'Auto-configuration'.
+* Adds chapter in the Reference Guide on 'Declarative Configuration'.
+* Edits the document on 'Externalized Configuration'.
+* Fixes bug when autowiring auto-configured GemfireTemplates into application components.
+https://github.com/spring-projects/spring-boot-data-geode/issues/55
+* Improves intelligence around the auto-configuration of CQ functionality to be based on the new Cluster-aware Conditions.
+https://github.com/spring-projects/spring-boot-data-geode/issues/53
+
+
+Changes in version 1.2.0.M2 (2019-09-11)
+----------------------------------------
+Adds support to run Spring Boot applications deployed to PCF using PCC as a specific user.  Additionally, adds
+Spring Boot Starters for Pivotal Cloud Cache (PCC).
+
+* Adds Spring Boot Starters (e.g. spring-cloudcache-starter, *-starter-actuator, *-starter-session, and *-starter-test)
+for Pivotal Cloud Cache (PCC).
+https://github.com/spring-projects/spring-boot-data-geode/issues/46
+* Adds support to run Spring Boot applications deployed to PCF using PCC as a specific user.
+https://github.com/spring-projects/spring-boot-data-geode/issues/44
+* Adds support for setting the 'locators' and 'remote-locators' GemFire/Geode properties when configuring
+and bootstrapping Apache Geode Locator applications using Spring Boot and the SDG @LocatorApplication annotation.
+* Adds documentation to the Reference Guide on configuring and bootstrapping Apache Geode Locator-based application
+using Spring Boot and the SDG @LocatorApplication annotation.  An example class is also provided.
+* Changes Apache Geode documentation references to version 1.9 and VMware Tanzu GemFire documentation references
+to version 9.8.
+* Edits the documentation on 'Building ClientCache Applications' in the Reference Guide.
+* Edits the documentation on 'Building Embedded (Peer & Server) Cache Applications' in the Reference Guide.
+* Edits the 'Security' & 'Pivotal CloudFoundry' chapters in the Reference Guide.
+* Fixes incorrect URL reference to the Pivotal Cloud Cache (PCC) documentation.
+* Fixes the incorrect declared scope of the 'org.springframework.data:spring-data-geode-test' dependency in the 'spring-geode-starter-test' module
+as well as the incorrect declared scope of the 'org.springframework.data:spring-data-gemfire-test' dependency in the 'spring-gemfire-starter-test' module.
+https://github.com/spring-projects/spring-boot-data-geode/issues/50
+* Fixes the EnableSecurityCondition and nested Conditions to properly consider the SBDG property for enabling
+and disabling ClientSecurityAutoConfiguration.
+* Fixes the EnableSslCondition and nested Conditions to properly consider the SBDG property for enabling and disabling
+SslAutoConfiguration.
+* Fixes an issue caused by Apache Geode that makes Spring Boot think all Spring Boot, Apache Geode applications
+are Web Applications.  This is dues to geode-core's compile-time dependency on 'org.eclipe.jetty:jetty-server', which
+itself has a transitive dependency on the 'javax.servlet:javax.servlet-api'.  Therefore, SBDG Starters add an exclude
+on the 'javax.servlet-api'.
+https://github.com/spring-projects/spring-boot-data-geode/issues/47
+* Removes the runtime dependency on the 'javax.cache:cache-api' for the SBDG Starters, which is no longer
+a required SDG dependency.
+https://github.com/spring-projects/spring-boot-data-geode/issues/45
+* Upgrades to Spring Framework 5.2.0.RC2
+* Upgrades to Spring Boot 2.2.0.M6
+* Upgrades to Spring Data for Apache Geode & VMware Tanzu GemFire 2.2.0.RC3.
+* Upgrades to Spring Data Release Train Moore-RC3.
+* Upgrades to Spring Session BOM Corn-M4.
+* Upgrades to Spring Session for Apache Geode & VMware Tanzu GemFire 2.2.0.M4.
+* Upgrades to Spring Test for Apache Geode & VMware Tanzu GemFire 0.0.8.RELEASE.
+
+
+Changes in version 1.1.1.RELEASE (2019-09-11)
+---------------------------------------------
+Adds support to run Spring Boot applications deployed to PCF using PCC as a specific user.
+
+* Adds support to run Spring Boot applications deployed to PCF using PCC as a specific user.
+https://github.com/spring-projects/spring-boot-data-geode/issues/44
+* Edits the documentation on 'Building ClientCache Applications' in the Reference Guide.
+* Edits the documentation on 'Building Embedded (Peer & Server) Cache Applications' in the Reference Guide.
+* Edits the 'Security' & 'Pivotal CloudFoundry' chapters in the Reference Guide.
+* Fixes the incorrect declared scope of the 'org.springframework.data:spring-data-geode-test' dependency in the 'spring-geode-starter-test' module
+as well as the incorrect declared scope of the 'org.springframework.data:spring-data-gemfire-test' dependency in the 'spring-gemfire-starter-test' module.
+https://github.com/spring-projects/spring-boot-data-geode/issues/50
+* Fixes the EnableSecurityCondition and nested Conditions to properly consider the SBDG property for enabling
+and disabling the ClientSecurityAutoConfiguration.
+* Fixes the EnableSslCondition and nested Conditions to properly consider the SBDG property for enabling and disabling
+the SslAutoConfiguration.
+* Upgrades to Spring Boot 2.1.8.RELEASE.
+* Upgrades to Spring Test for Apache Geode & VMware Tanzu GemFire 0.0.8.RELEASE.
+
+
+Changes in version 1.2.0.M1 (2019-08-21)
+----------------------------------------
+Rebases SBDG on Spring Framework 5.2, Spring Boot 2.2, Spring Data Moore/2.2 and Spring Session Corn/2.2.
+
+* Upgrades to Apache Geode 1.9.0.
+* Upgrades to the Apache Geode Management REST API 1.9.0 for testing cluster configuration and Auth.
+* Upgrade to VMware Tanzu GemFire 9.8.3
+* Upgrades to Spring Framework 2.2.0.BUILD-SNAPSHOT.
+* Upgrades to Spring Boot 2.2.0.BUILD-SNAPSHOT.
+* Upgrades to Spring Data Release Train Moore-BUILD-SNAPSHOT.
+* Upgrades to Spring Data for Apache Geode & VMware Tanzu GemFire 2.2.0.BUILD-SNAPSHOT.
+* Upgrades to Spring Session BOM Corn-BUILD-SNAPSHOT.
+* Upgrades to Spring Session for Apache Geode & VMware Tanzu GemFire 2.2.0.BUILD-SNAPSHOT.
+
+
+Changes in version 1.1.0.RELEASE (2019-08-21)
+---------------------------------------------
+Adds a new Sample with Guide and Code on HTTP Session Caching.
+
+* Adds a new Sample with Guide and Example Spring Boot Application showcasing HTTP Session Caching with Spring Session
+and Apache Geode.
+* Resolves GitHub Issue #41.
+* Removes improper use of the Apache Shiro API in production code, replacing usages with the matching and appropriate
+Spring Framework API class.
+* Cleans up unnecessary transitive dependencies.
+
+
+Changes in version 1.1.0.RC2 (2019-08-13)
+-----------------------------------------
+Adds a new Sample with Guide and Code on Near Caching.
+
+* Adds a new Sample with Guide and Example Spring Boot Application showcasing Near Caching.
+* Adds Integration Tests for all Samples except the Spring Boot Actuator Sample.
+* Edits the Sample Guides on Look-Aside Caching and Inline Caching.
+* Upgrades to Spring Framework 5.1.9.RELEASE.
+* Upgrades to Spring Boot 2.1.7.RELEASE.
+* Upgrades to Spring Data for Apache Geode & VMware Tanzu GemFire 2.1.10.RELEASE.
+* Upgrades to Spring Data Release Train Lovelace-SR10.
+* Upgrades to Spring Session for Apache Geode & VMware Tanzu GemFire 2.1.5.RELEASE.
+* Upgrades to Spring Test for Apache Geode & VMware Tanzu GemFire 0.0.7.RELEASE.
+* Upgrades to Test Containers 1.11.3.
+
+
+Changes in version 1.1.0.RC1 (2019-08-02)
+-----------------------------------------
+Adds a new Sample with Guide and Code on Inline Caching.
+
+* Adds a new Sample with Guide and Example Spring Boot application showcasing Inline Caching.
+* Refactors and cleans up the SBDG Maven POM generation.
+* Upgrades to Mockito 3.0.0.
+* Upgrades to VMware Tanzu GemFire 9.5.4.
+* Upgrades to Spring Build Conventions Gradle Plugin 0.0.26.RELEASE.
+* Cleans up all uses of HTTP URLs, switching to HTTPS.
+
+
+Changes in version 1.1.0.M3 (2019-07-03)
+----------------------------------------
+Adds support for deploying Spring Boot, ClientCache applications to Pivotal CloudFoundry (PCF) connected to an external,
+standalone Apache Geode or VMware Tanzu GemFire cluster.
+
+* Adds support for hybrid cloud deployments, pushing Spring Boot, ClientCache applications to PCF connected to
+an external, standalone Apache Geode or VMware Tanzu GemFire cluster.
+* Adds support to target a specific Pivotal Cloud Cache (PCC) service instance when multiple PCC service instances
+are bound to a Spring Boot, ClientCache application in Pivotal CloudFoundry (PCF).
+* Adds auto-configuration for Apache Geode & VMware Tanzu GemFire logging.
+* Adds a new section in the Appendix describing how to switch between open source Apache Geode & Pivotal Cloud Cache
+(PCC), or alternatively, VMware Tanzu GemFire.
+* Upgrades to Spring Boot 2.1.6.RELEASE.
+* Upgrades to Spring Test for Apache Geode & VMware Tanzu GemFire 0.0.5.RELEASE.
+* Upgrades to Spring Session BOM Bean-SR6.
+
+
+Changes in version 1.1.0.M2 (2019-06-14)
+----------------------------------------
+Adds support for the Inline Caching Use Case (UC) along with Spring Boot Starters for Spring Session
+and Spring Test for Apache Geode & VMware Tanzu GemFire (STDG).
+
+* Adds the InlineCachingRegionConfigurer, RepositoryCacheLoader and RepositoryCacheWriter to support Inline Caching.
+* Adds the a @EnableSecurityManagerProxy annotation for conveniently locating and configuring an Apache Geode
+SecurityManager implementation declared and registered as a bean in the Spring application context.
+* Adds the spring-geode-starter-session and spring-gemfire-starter-session modules to help users get started with
+(HTTP) Session Caching using either Apache Geode or VMware Tanzu GemFire as the provider.
+* Adds the spring-geode-starter-test and spring-gemfire-starter-test modules, which automatically pulls in
+spring-boot-starter-test and Spring Test for Apache Geode & VMware Tanzu GemFire (STDG) to help users test their
+Apache Geode or VMware Tanzu GemFire applications in a Spring context.
+* Includes early support for @LocatorApplication annotated Spring Boot applications enabling users to configure
+and bootstrap a GemFire/Geode Locator using Spring Boot.
+* Includes additional integration tests for customizing the auto-configuration of GemFire/Geode Pools using SDG Configurers.
+* Upgrades to Spring Framework 5.1.8.RELEASE.
+* Upgrades to Spring Data for Apache Geode & VMware Tanzu GemFire 2.1.9.RELEASE.
+* Upgrades to Spring Data Release Train Lovelace-SR9.
+* Upgrades to Spring Session for Apache Geode & VMware Tanzu GemFire 2.1.4.RELEASE.
+* Upgrades to Spring Session BOM Bean-SR5.
+* Upgrades to Spring Test for Apache Geode & VMware Tanzu GemFire 0.0.4.RELEASE.
+
+
+Changes in version 1.0.1.RELEASE (2019-06-13)
+---------------------------------------------
+Provides support for configuring and bootstrapping Spring Boot, Apache Geode Locator-based applications.
+
+* Adds support to configure and bootstrap Apache Geode Locator-based applications using Spring Boot.
+* Adds the a @EnableSecurityManagerProxy annotation for conveniently locating and configuring an Apache Geode
+SecurityManager implementation declared and registered as a bean in the Spring application context.
+* Upgrades to Spring Framework 5.0.14.RELEASE.
+* Upgrades to Spring Test for Apache Geode & VMware Tanzu GemFire 0.0.2.RELEASE.
+
+
+Changes in version 1.1.0.M1 (2019-05-07)
+----------------------------------------
+Rebases SBDG on Spring Framework 5.1, Spring Boot 2.1, Spring Data Lovelace (2.1) and Spring Session 2.1.
+
+* Adds the @EnableSecurityManager annotation and associated configuration class to configure Apache Geode
+& VMware Tanzu GemFire Security (Auth) using the CacheFactory API.
+* Adds the @EnableSecurityManagerProxy annotation and associated configuration class to configure Apache Geode
+& VMware Tanzu GemFire Security (Auth) using the security-manager property with proxying.
+* Upgrades to Apache Geode 1.6.0.
+* Upgrades to the Apache Geode Management REST API 1.6.0 for testing cluster configuration and Auth.
+* Upgrades to VMware Tanzu GemFire 9.5.3.
+* Upgrades to Spring Framework 5.1.6.RELEASE.
+* Upgrades to Spring Boot 2.1.4.RELEASE.
+* Upgrades to Spring Data for Apache Geode & VMware Tanzu GemFire 2.1.6.RELEASE.
+* Upgrades to Spring Data Release Train Lovelace-SR6.
+* Upgrades to Spring Session BOM Bean-SR4.
+* Upgrades to Spring Session for Apache Geode & VMware Tanzu GemFire 2.1.3.RELEASE.
+
+
+Changes in version 1.0.0.RELEASE (2019-05-06)
+---------------------------------------------
+Edits documentation and adds Sample with Guide and Example Application code for the Look-Aside Caching pattern.
+
+* Fix release (milestone, release candidate, and GA) version of the reference documentation.
+* Fix image links in reference docs.
+* Add Sample with Guide and Example Application code covering the Look-Aside Caching pattern.
+* Upgrade to Spring Test for Apache Geode & VMware Tanzu GemFire 0.0.1.RELEASE.
+
+
+Changes in version 1.0.0.RC2 (2019-04-30)
+-----------------------------------------
+Adds additional tests and includes a sample of using Spring Boot Actuator with Apache Geode and VMware Tanzu GemFire.
+
+* Adds a sample containing a guide along with example code to show how to use Spring Boot Actuator
+with Apache Geode or VMware Tanzu GemFire.
+* Adds the 'org.springframework.boot:spring-boot-autoconfigure-processor' dependency to 'spring-geode-autoconfigure'.
+* Includes documentation edits.
+* Includes the JCache API as runtime dependency in both the 'spring-geode-starter' as well as the 'spring-gemfire-starter'.
+* Removes exclusion on 'org.springframework.boot:spring-boot-starter-logging' and adds the exclusion on
+'org.apache.logging.log4j:log4j-to-slf4j'.
+* Removes unnecessary use of java.util.Optional in the codebase.
+* Upgrades to Gradle 5.4.1.
+
+
+Changes in version 1.0.0.RC1 (2019-04-24)
+-----------------------------------------
+Adds support for GemfireTemplate auto-configuration for each declared Apache Geode & VMware Tanzu GemFire Region.
+
+* Adds auto-configuration to automatically create a GemfireTemplate for each declared Apache Geode or VMware Tanzu
+GemFire Region (https://github.com/spring-projects/spring-boot-data-geode/issues/31).
+* Includes the 'Auto-configuration vs. Annotation-based configuration' chapter in reference documentation to explain
+the differences of each approach (https://github.com/spring-projects/spring-boot-data-geode/issues/20).
+* Adds a sample containing a guide along with example code to explain and show how the Spring Boot auto-configuration
+support for Apache Geode & VMware Tanzu GemFire works, complimenting the 'Auto-configuration vs. Annotation-based
+configuration' chapter in the reference docs.
+* Fixes the HTTP client authentication bug when a client attempts to push cluster configuration to the server configured
+with a SecurityManager, requiring Authentication (https://github.com/spring-projects/spring-boot-data-geode/issues/16).
+* Switch reference documentation to using HTML5.
+* Adds dependency management for ByteBuddy 1.9.10.
+* Upgrades to Mockito 2.27.0
+* Upgrades to Spring Framework 5.0.13.RELEASE.
+* Upgrades to Spring Boot 2.0.9.RELEASE.
+* Upgrades to Spring Data Release Train Kay-SR14.
+* Upgrades to Spring Session Apple-SR9.
+
+
+Changes in version 1.0.0.M4 (2019-03-22)
+----------------------------------------
+Adds support for Spring Boot Configuration Processor.
+
+* Allows the use of `spring.application.name` to name a GemFire/Geode node.
+* Adds Spring Boot Configuration Processor and auto-configuration for @ConfigurationProperties classes to capture
+and encapsulate configuration meta-data specified in properties files.
+* Includes Spring Shell as a runtime dependency in the GemFire/Geode starters.
+* Workaround bug in Spring Cloud Commons consuming and discarding EnumerablePropertySources in the Environment.
+* Upgrades to Mockito 2.23.4.
+* Upgrades to Spring Framework 5.0.12.RELEASE.
+* Upgrades to Spring Boot 2.0.8.RELEASE.
+* Upgrades to Spring Data Release Train Kay-SR13.
+* Upgrades to Spring Session Apple-SR8.
+* Upgrades to Spring Test for Apache Geode & VMware Tanzu GemFire 0.0.1.RC1.
+
+
+Changes in version 1.0.0.M3 (2018-09-20)
+----------------------------------------
+Adds support for Spring Boot Actuator HealthIndicator endpoints providing details and insight into the runtime operation
+of either Apache Geode or VMware Tanzu GemFire.
+
+Partly resolves (https://github.com/spring-projects/spring-boot-data-geode/issues/4).
+
+* Adds Spring Boot Actuator HealthIndicators for the Apache Geode & VMware Tanzu GemFire peer Cache
+and ClientCache instances, the DistributedSystem, the DistributedMember and the ResourceManager.
+* Adds Spring Boot Actuator HealthIndicators for Apache Geode & VMware Tanzu GemFire Regions.
+* Adds Spring Boot Actuator HealthIndicators for Apache Geode & VMware Tanzu GemFire Indexes.
+* Adds Spring Boot Actuator HealthIndicators for Apache Geode & VMware Tanzu GemFire DiskStores.
+* Adds Spring Boot Actuator HealthIndicators for Apache Geode & VMware Tanzu GemFire ContinuousQueries.
+* Adds Spring Boot Actuator HealthIndicators for Apache Geode & VMware Tanzu GemFire Pools.
+* Adds Spring Boot Actuator HealthIndicators for Apache Geode & VMware Tanzu GemFire CacheServers.
+* Adds Spring Boot Actuator HealthIndicators for Apache Geode & VMware Tanzu GemFire GatewaySenders.
+* Adds Spring Boot Actuator HealthIndicators for Apache Geode & VMware Tanzu GemFire GatewayReceivers.
+* Adds Spring Boot Actuator HealthIndicators for Apache Geode & VMware Tanzu GemFire AsyncEventQueues.
+* Upgrades to Mockito 2.22.0.
+* Upgrades to Spring Framework 5.0.9.RELEASE.
+* Upgrades to Spring Boot 2.0.5.RELEASE.
+* Upgrades to Spring Data Release Train Kay-SR10.
+* Upgrades to Spring Test for Apache Geode & VMware Tanzu GemFire 0.0.1.M4.
+
+
+Changes in version 1.0.0.M2 (2018-08-29)
+----------------------------------------
+Adds support to auto-configure Spring Session using Apache Geode or VMware Tanzu GemFire as the Session state
+management provider.
+
+* Adds support to auto-configure Spring Session for Apache Geode or VMware Tanzu GemFire as the Spring Session provider
+when Spring Session for Apache Geode or VMware Tanzu GemFire is on the classpath
+(https://github.com/spring-projects/spring-boot-data-geode/issues/3).
+* Improve caching provider auto-configuration to respect 'spring.cache.type'
+(https://github.com/spring-projects/spring-boot-data-geode/issues/11).
+* Add section to appendix describing how to disable Spring Boot auto-configuration on a feature by feature basis.
+* Upgrades to Spring Framework 5.0.8.RELEASE.
+* Upgrades to Spring Boot 2.0.4.RELEASE.
+* Upgrades to Spring Data Release Train Kay-SR9.
+* Upgrades to Spring Test for Apache Geode & VMware Tanzu GemFire 0.0.1.M3.
+
+
+Changes in version 1.0.0.M1 (2018-06-25)
+----------------------------------------
+Inception of the Spring Boot for Apache Geode & VMware Tanzu GemFire project.
+
+* Adds the spring-geode module containing the core bits and functionality for this project.
+* Adds the spring-geode-autoconfigure module building on Spring Boot's auto-configuration functionality.
+** Includes auto-configuration for a ClientCache instance.
+** Includes auto-configuration for using Apache Geode & VMware Tanzu GemFire as a caching provider in
+Spring's Cache Abstraction.
+** Includes auto-configuration for Spring Data Repositories.
+** Includes auto-configuration for Apache Geode & VMware Tanzu GemFire Function Execution framework.
+** Includes auto-configuration for Apache Geode & VMware Tanzu GemFire CQ.
+** Includes auto-configuration for Apache Geode & VMware Tanzu GemFire PDX serialization.
+** Includes auto-configuration for Apache Geode & VMware Tanzu GemFire Security (Authentication/Authorization).
+** Includes auto-configuration for Apache Geode & VMware Tanzu GemFire Security (TLS using SSL).
+* Adds the spring-geode-docs modules containing the project documentation and reference guide.
+* Adds the spring-geode-starter module to get started building Spring Boot applications with Apache Geode.
+* Adds the spring-gemfire-starter module to get started building Spring Boot applications with VMware Tanzu GemFire.

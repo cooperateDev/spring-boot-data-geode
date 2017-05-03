@@ -1,0 +1,19 @@
+apply plugin: 'io.spring.convention.spring-module'
+
+description = "Apache Geode Extensions"
+
+dependencies {
+
+    api "org.apache.geode:geode-core:$apacheGeodeVersion"
+    api "org.apache.geode:geode-cq:$apacheGeodeVersion"
+    api "org.apache.geode:geode-lucene:$apacheGeodeVersion"
+    api "org.apache.geode:geode-wan:$apacheGeodeVersion"
+
+    implementation "com.fasterxml.jackson.core:jackson-databind"
+
+    // See additional testImplementation dependencies declared in the testDependencies project extension
+    // defined in the DependencySetPlugin.
+    testImplementation "org.apache.geode:geode-membership:$apacheGeodeVersion"
+    testImplementation "org.apache.geode:geode-serialization:$apacheGeodeVersion"
+
+}

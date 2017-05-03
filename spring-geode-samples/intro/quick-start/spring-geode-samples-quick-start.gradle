@@ -1,0 +1,22 @@
+plugins {
+	id "io.freefair.lombok" version "6.3.0"
+}
+
+apply plugin: 'io.spring.convention.spring-sample-boot'
+
+description = "Quick Start for Spring Boot for Apache Geode"
+
+dependencies {
+
+	implementation project(":spring-geode-starter")
+
+	implementation "org.assertj:assertj-core"
+	implementation "org.projectlombok:lombok"
+
+	//runtime project(":spring-geode-starter-logging")
+
+	testImplementation project(":spring-geode-starter-test")
+
+	testImplementation "org.springframework.boot:spring-boot-starter-test"
+
+}

@@ -1,0 +1,45 @@
+//ext['jetty.version'] = "$eclipseJettyVersion"
+//ext['micrometer.version'] = "$micrometerVersion"
+
+dependencyManagement {
+	imports {
+		mavenBom "org.springframework.boot:spring-boot-dependencies:$springBootVersion"
+
+		// Declared and managed Spring Framework (BOM) version to override Spring Boot dependency management as needed.
+		//mavenBom 'org.springframework:spring-framework-bom:$springVersion'
+
+		// Declared and managed Spring Data (BOM) version to override Spring Boot dependency management as needed.
+		//mavenBom "org.springframework.data:spring-data-bom:${springDataBomVersion}"
+
+		// Declared and managed Spring Session (BOM) version to override Spring Boot dependency management as needed.
+		//mavenBom "org.springframework.session:spring-session-bom:${springSessionBomVersion}"
+
+		// Declared and managed Micrometer (BOM) version based on Apache Geode 1.14.3's declared, required Micrometer
+		// version (1.6.3). Spring Boot 3.0 declares and depends on Micrometer 2.0.
+		//mavenBom "io.micrometer:micrometer-bom:$micrometerVersion"
+
+		// Declared and managed Eclipse Jetty (BOM) version based on Apache Geode 1.14.3's declared, required Jetty
+		// version (9.x)! This Jetty version is incompatible with Jakarta EE 9 and Spring Boot 3. Spring Boot 3
+		// declares and uses Jetty 11.
+		//mavenBom "org.eclipse.jetty:jetty-bom:$eclipseJettyVersion"
+
+		// Declared and managed Testcontainers libraries version.
+		mavenBom "org.testcontainers:testcontainers-bom:$testcontainersVersion"
+	}
+	dependencies {
+		dependency "antlr:antlr:$antlrVersion"
+		dependency "edu.umd.cs.mtc:multithreadedtc:$multithreadedtcVersion"
+		dependency "io.pivotal.gemfire:geode-core:$pivotalGemFireVersion"
+		dependency "io.pivotal.gemfire:geode-cq:$pivotalGemFireVersion"
+		dependency "io.pivotal.gemfire:geode-lucene:$pivotalGemFireVersion"
+		dependency "io.pivotal.gemfire:geode-wan:$pivotalGemFireVersion"
+		dependency "org.apache.geode:geode-core:$apacheGeodeVersion"
+		dependency "org.apache.geode:geode-cq:$apacheGeodeVersion"
+		dependency "org.apache.geode:geode-lucene:$apacheGeodeVersion"
+		dependency "org.apache.geode:geode-wan:$apacheGeodeVersion"
+		dependency "org.springframework.data:spring-data-geode:$springDataGeodeVersion"
+		dependency "org.springframework.data:spring-data-geode-test:$springDataGeodeTestVersion"
+		dependency "org.springframework.session:spring-session-data-geode:$springSessionDataGeodeVersion"
+		dependency "org.springframework.shell:spring-shell:$springShellVersion"
+	}
+}

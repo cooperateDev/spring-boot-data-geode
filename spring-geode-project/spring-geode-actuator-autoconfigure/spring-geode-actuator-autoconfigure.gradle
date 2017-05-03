@@ -1,0 +1,16 @@
+apply plugin: 'io.spring.convention.spring-module'
+
+description = "Spring Boot Actuator Auto-Configuration for Apache Geode"
+
+dependencies {
+
+    api project(":spring-geode-actuator")
+    api project(":spring-geode-autoconfigure")
+
+    compileOnly "com.google.code.findbugs:jsr305:$findbugsVersion"
+
+    // See additional testImplementation dependencies declared in the testDependencies project extension
+    // defined in the DependencySetPlugin.
+    testImplementation "org.springframework.boot:spring-boot-starter-test"
+
+}

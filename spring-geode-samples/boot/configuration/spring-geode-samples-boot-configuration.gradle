@@ -1,0 +1,35 @@
+import org.apache.tools.ant.filters.ReplaceTokens
+
+plugins {
+	id "io.freefair.lombok" version "6.3.0"
+}
+
+apply plugin: 'io.spring.convention.spring-sample-boot'
+
+description = "Spring Geode Sample demonstrating the use of Spring Boot Auto-Configuration for Apache Geode."
+
+dependencies {
+
+	implementation project(":spring-geode-starter")
+	implementation project(":spring-geode-starter-test")
+
+	implementation "org.assertj:assertj-core"
+	implementation "org.projectlombok:lombok"
+
+	testCompileOnly "com.google.code.findbugs:jsr305:$findbugsVersion"
+
+	testImplementation "org.springframework.boot:spring-boot-starter-test"
+
+}
+
+processResources {
+	eachFile { file ->
+		if (!file.name.endsWith(".jks")) {
+			file.filter ReplaceTokens, tokens: [
+				'project-dir' : rootProject.projectDir.path,
+				'project-version' : project.version,
+				'samples-dir' : rootProject.projectDir.path + '/spring-geode-samples'
+			]
+		}
+	}
+}

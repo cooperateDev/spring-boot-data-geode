@@ -1,0 +1,31 @@
+plugins {
+	id "io.freefair.lombok" version "6.3.0"
+}
+
+apply plugin: 'io.spring.convention.spring-sample-boot'
+
+description = "Spring Geode Sample demonstrating Spring's Cache Abstraction using Apache Geode as the caching provider for Inline Caching."
+
+dependencies {
+
+	implementation project(":spring-geode-starter")
+
+	implementation "org.projectlombok:lombok"
+	implementation "org.springframework.boot:spring-boot-starter-data-jpa"
+	implementation "org.springframework.boot:spring-boot-starter-web"
+
+	runtimeOnly "org.hsqldb:hsqldb"
+
+	testImplementation project(":spring-geode-starter-test")
+
+	testImplementation "org.springframework.boot:spring-boot-starter-test"
+
+}
+
+bootJar {
+	mainClass = 'example.app.caching.inline.BootGeodeInlineCachingApplication'
+}
+
+bootRun {
+	main = 'example.app.caching.inline.BootGeodeInlineCachingApplication'
+}

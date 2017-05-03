@@ -1,0 +1,21 @@
+apply plugin: 'io.spring.convention.spring-module'
+
+description = "Spring Cloud for Apache Geode"
+
+repositories {
+	maven { url "https://repo.spring.io/release" }
+}
+
+dependencies {
+
+	api project(":spring-geode-autoconfigure")
+
+	api "org.springframework.cloud:spring-cloud-bindings:${springCloudBindingsVersion}"
+
+	compileOnly "com.google.code.findbugs:jsr305:$findbugsVersion"
+
+	// See additional testImplementation dependencies declared in the testDependencies project extension
+	// defined in the DependencySetPlugin.
+	testImplementation "org.springframework.boot:spring-boot-starter-test"
+
+}

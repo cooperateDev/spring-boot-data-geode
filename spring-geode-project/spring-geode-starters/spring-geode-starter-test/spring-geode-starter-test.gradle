@@ -1,0 +1,12 @@
+apply plugin: 'io.spring.convention.spring-module'
+
+description = "Spring Boot Test Starter for Apache Geode"
+
+dependencies {
+
+	api project(':spring-geode-starter')
+
+	api "org.springframework.boot:spring-boot-starter-test"
+	api 'org.springframework.data:spring-data-geode-test'
+
+}

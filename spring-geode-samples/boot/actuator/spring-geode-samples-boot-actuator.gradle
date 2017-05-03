@@ -1,0 +1,31 @@
+plugins {
+	id "io.freefair.lombok" version "6.3.0"
+}
+
+apply plugin: 'io.spring.convention.spring-sample-boot'
+
+description = "Spring Geode Sample demonstrating the use of Spring Boot Actuator with Apache Geode."
+
+dependencies {
+
+	implementation project(":spring-geode-starter-actuator")
+	implementation project(":spring-geode-starter-test")
+
+	implementation "org.springframework.boot:spring-boot-starter-web"
+
+}
+
+task runServer(type: JavaExec) {
+	classpath = sourceSets.main.runtimeClasspath
+	jvmArgs '-Dspring.profiles.active=server'
+	main = "example.app.temp.geode.server.BootGeodeServerApplication"
+}
+
+bootJar {
+	mainClass = 'example.app.temp.geode.client.BootGeodeClientApplication'
+}
+
+bootRun {
+	main = 'example.app.temp.geode.client.BootGeodeClientApplication'
+	args "--spring.profiles.active=client"
+}

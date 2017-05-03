@@ -1,0 +1,45 @@
+plugins {
+	id "io.freefair.lombok" version "6.3.0"
+}
+
+apply plugin: 'io.spring.convention.spring-module'
+
+description = "Spring Boot Auto-Configuration for Apache Geode"
+
+dependencies {
+
+	api project(":spring-geode")
+
+	compileOnly "com.google.code.findbugs:jsr305:$findbugsVersion"
+
+	implementation "jakarta.annotation:jakarta.annotation-api"
+
+	optional project(':apache-geode-extensions')
+
+	optional "org.springframework.boot:spring-boot-autoconfigure-processor"
+	optional "org.springframework.boot:spring-boot-configuration-processor"
+	optional "org.springframework.session:spring-session-data-geode"
+
+	// See additional testImplementation dependencies declared in the testDependencies project extension
+	// defined in the DependencySetPlugin.
+	testImplementation "jakarta.servlet:jakarta.servlet-api"
+	testImplementation "org.springframework.boot:spring-boot-starter-test"
+	testImplementation "org.springframework.boot:spring-boot-starter-web"
+
+	testCompileOnly "com.google.code.findbugs:jsr305:$findbugsVersion"
+
+	testRuntimeOnly project(':apache-geode-jetty11')
+
+	testRuntimeOnly "javax.cache:cache-api"
+	//testRuntimeOnly "org.apache.geode:geode-http-service:$apacheGeodeVersion"
+	testRuntimeOnly "org.apache.geode:geode-web:$apacheGeodeVersion"
+	testRuntimeOnly "org.springframework.boot:spring-boot-starter-jetty"
+	testRuntimeOnly "org.springframework.boot:spring-boot-starter-json"
+	testRuntimeOnly "org.springframework.shell:spring-shell:$springShellVersion"
+
+	// Runtime Test dependency on Spring Cloud Services (SCS) to verify workaround to SCS problem!
+	//testRuntimeOnly("io.pivotal.spring.cloud:spring-cloud-services-starter-service-registry:2.0.3.RELEASE") {
+	//	exclude group: "org.apache.logging.log4j", module: "log4j-core"
+	//}
+
+}

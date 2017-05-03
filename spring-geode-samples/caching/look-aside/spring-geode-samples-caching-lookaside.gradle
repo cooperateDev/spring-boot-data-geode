@@ -1,0 +1,23 @@
+apply plugin: 'io.spring.convention.spring-sample-boot'
+
+description = "Spring Geode Sample demonstrating Spring's Cache Abstraction using Apache Geode as the caching provider for Look-Aside Caching."
+
+dependencies {
+
+	implementation project(":spring-geode-starter")
+
+	implementation "org.springframework.boot:spring-boot-starter-web"
+
+	testImplementation project(":spring-geode-starter-test")
+
+	testImplementation "org.springframework.boot:spring-boot-starter-test"
+
+}
+
+bootJar {
+	mainClass = 'example.app.caching.lookaside.BootGeodeLookAsideCachingApplication'
+}
+
+bootRun {
+	main = 'example.app.caching.lookaside.BootGeodeLookAsideCachingApplication'
+}

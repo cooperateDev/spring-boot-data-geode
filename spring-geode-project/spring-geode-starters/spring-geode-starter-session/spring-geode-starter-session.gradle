@@ -1,0 +1,12 @@
+apply plugin: 'io.spring.convention.spring-module'
+
+description = "Spring Boot Starter for Spring Session using Apache Geode"
+
+dependencies {
+
+    api project(':spring-geode-starter')
+
+    api 'org.springframework.session:spring-session-core'
+    api 'org.springframework.session:spring-session-data-geode'
+
+}
